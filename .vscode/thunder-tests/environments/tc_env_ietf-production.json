@@ -1,0 +1,22 @@
+{
+  "_id": "a87bb222-6ce5-4e9a-ab35-f18107ad21c6",
+  "name": "IETF Production",
+  "default": true,
+  "sortNum": 10000,
+  "created": "2025-03-14T19:10:15.958Z",
+  "modified": "2025-03-14T19:10:15.958Z",
+  "data": [
+    {
+      "name": "API_SCHEMA",
+      "value": "https"
+    },
+    {
+      "name": "API_HOST",
+      "value": "datatracker.ietf.org"
+    },
+    {
+      "name": "API_BASEURL",
+      "value": "{{API_SCHEMA}}://{{API_HOST}}/api/v1"
+    }
+  ]
+}

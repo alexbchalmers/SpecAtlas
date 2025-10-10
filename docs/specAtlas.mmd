@@ -1,0 +1,36 @@
+---
+config:
+  layout: elk
+  elk:
+    mergeEdges: false
+    nodePlacementStrategy: BRANDES_KOEPF
+    cycleBreakingStrategy: GREEDY_MODEL_ORDER
+    forceNodeModelOrder: false
+    considerModelOrder: NODES_AND_EDGES
+---
+flowchart TB
+  co(("ControllingOrg")):::nodeStandard
+  a(("Authority")):::nodeStandard
+  ag(("AuthorityGroup")):::nodeStandard
+
+  co co_co_hco@-- "HAS_CHILD_ORG" --> co
+  co -- "HAS_AFFILIATE_ORG (_affiliation_)" --> co
+  co -- "PREVIOUSLY_KNOWN_AS" --> co
+  co -- "SUCCEEDED_ORG" --> co
+
+  co -- "CONTROLS" --> a
+
+  a -- "REFERENCES<br>(_referenceType_)" --> a
+  a -- "UPDATES" --> a
+  a -- "EXTENDS" --> a
+  a -- "OBSOLETES" --> a
+  a -- "CONTAINS<br>(_authoritySection_)" --> a
+  a -- "HAS_RELATED_AUTHORITY<br>(_relationship_)" --> a
+
+  a -- "MEMBER_OF" --> ag
+  a -- "REFERENCES (_referenceType_)" --> ag
+
+  classDef nodeStandard font-weight:bold, font-size: 30px
+  classDef edgeEmphasis stroke-width: 8px, font-weight:bold
+
+  class co_co_hco edgeEmphasis

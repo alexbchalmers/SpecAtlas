@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+id2xml = "*"
+xml2rfc = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

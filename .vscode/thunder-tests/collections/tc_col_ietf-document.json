@@ -1,0 +1,124 @@
+{
+  "_id": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+  "colName": "IETF Document",
+  "created": "2025-03-10T05:06:52.286Z",
+  "sortNum": 10000,
+  "folders": [],
+  "requests": [
+    {
+      "_id": "d580d275-85f4-43f2-b739-3c4145b9c239",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "Document Search",
+      "url": "{{API_BASEURL}}/doc/document/?name=rfc6749",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2025-03-14T18:39:45.362Z",
+      "modified": "2025-03-14T19:33:02.592Z",
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "httpClient/1.0"
+        }
+      ],
+      "params": [
+        {
+          "name": "name",
+          "value": "rfc6749",
+          "isPath": false
+        }
+      ]
+    },
+    {
+      "_id": "f26993bc-d017-4a86-877f-5851c2b29d49",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "Related Documents",
+      "url": "https://datatracker.ietf.org/api/v1/doc/relateddocument/?source=128590&limit=0&relationship__slug=refinfo",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2025-03-14T18:43:15.717Z",
+      "modified": "2025-03-21T05:44:11.118Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "target",
+          "value": "38892",
+          "isDisabled": true,
+          "isPath": false
+        },
+        {
+          "name": "source",
+          "value": "128590",
+          "isPath": false
+        },
+        {
+          "name": "limit",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "relationship__slug",
+          "value": "refinfo",
+          "isPath": false
+        },
+        {
+          "name": "target__type__slug",
+          "value": "draft",
+          "isDisabled": true,
+          "isPath": false
+        },
+        {
+          "name": "source__type__slug",
+          "value": "rfc",
+          "isDisabled": true,
+          "isPath": false
+        }
+      ]
+    },
+    {
+      "_id": "ad0c37f3-786e-4eff-a650-fdee4e381dce",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "External Document Resource",
+      "url": "{{API_BASEURL}}/doc/docextresource/?doc=128590",
+      "method": "GET",
+      "sortNum": 30000,
+      "created": "2025-03-15T04:33:29.010Z",
+      "modified": "2025-03-15T04:35:05.293Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "doc",
+          "value": "128590",
+          "isPath": false
+        }
+      ]
+    },
+    {
+      "_id": "41c8ac2b-4160-4b80-9f12-822d502d90d6",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "Document URL",
+      "url": "{{API_BASEURL}}/doc/documenturl/?doc__name=rfc6749",
+      "method": "GET",
+      "sortNum": 40000,
+      "created": "2025-03-20T02:48:58.612Z",
+      "modified": "2025-03-20T02:52:39.828Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "doc__name",
+          "value": "rfc6749",
+          "isPath": false
+        },
+        {
+          "name": "limit",
+          "value": "25",
+          "isDisabled": true,
+          "isPath": false
+        }
+      ]
+    }
+  ]
+}

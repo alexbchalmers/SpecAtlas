@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "stdFinder": {
+      "type": "stdio",
+      "command": "python3",
+      "args": [
+        "C:/Users/alex/Development/personal/GitHub.identitymonk/mcp-standard-finder/standard_finder.py"
+      ]
+    }
+  }
+}

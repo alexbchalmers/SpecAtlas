@@ -1,0 +1,21 @@
+{
+  "_id": "48fa4cf7-965d-40af-9e5f-bf56da9bbcc8",
+  "colName": "IETF Schemas",
+  "created": "2025-03-15T04:05:19.931Z",
+  "sortNum": 20000,
+  "folders": [],
+  "requests": [
+    {
+      "_id": "44004fb3-ee57-49a0-9862-a6755f641a6b",
+      "colId": "48fa4cf7-965d-40af-9e5f-bf56da9bbcc8",
+      "containerId": "",
+      "name": "Document",
+      "url": "{{API_BASEURL}}/doc/document/schema/",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2025-03-15T04:05:37.814Z",
+      "modified": "2025-03-15T04:05:58.580Z",
+      "headers": []
+    }
+  ]
+}
