@@ -7,7 +7,7 @@
 * Parameters:
 *   $authorityGroupDataUrl   URL to the AuthorityGroup CSV file
 *
-* Execution order: 3 of 8 (after LoadControllingOrg.cypher)
+* Execution order: 4 of 8 (after LoadAuthority.cypher)
 *
 *******************************************************************************/
 
@@ -42,4 +42,4 @@ MERGE (
       , ag.url                  = nullIf(trim(row.url), '')
       , ag.notes                = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
 RETURN
-  'Loaded AuthorityGroup Data';
+  'Loaded AuthorityGroup Data' AS Action;

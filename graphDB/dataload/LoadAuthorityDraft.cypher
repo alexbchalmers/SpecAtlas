@@ -7,7 +7,7 @@
 * Parameters:
 *   $authorityDraftDataUrl   URL to the AuthorityDraft CSV file
 *
-* Execution order: 5 of 8 (after LoadAuthority.cypher)
+* Execution order: 5 of 8 (after LoadAuthorityGroup.cypher)
 *
 *******************************************************************************/
 
@@ -42,4 +42,4 @@ MERGE (
                                   )
       , ad.type                 = nullIf(trim(row.type), '')
 RETURN
-  'Loaded AuthorityDraft Data';
+  'Loaded AuthorityDraft Data' AS Action;

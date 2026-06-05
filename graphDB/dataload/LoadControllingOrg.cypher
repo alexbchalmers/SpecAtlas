@@ -47,4 +47,4 @@ MERGE (
       , co.endDate              = date(nullIf(trim(row.endDate), ''))     // YYYY[-MM[-DD]]
       , co.notes                = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
 RETURN
-  'Loaded ControllingOrg Data';
+  'Loaded ControllingOrg Data' AS Action;

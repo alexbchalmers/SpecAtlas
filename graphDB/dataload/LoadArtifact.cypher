@@ -43,4 +43,4 @@ MERGE (
       , art.status              = [x IN split(nullIf(trim(row.status), ''), ';') | lower(trim(x))]
       , art.notes               = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
 RETURN
-  'Loaded Artifact Data';
+  'Loaded Artifact Data' AS Action;

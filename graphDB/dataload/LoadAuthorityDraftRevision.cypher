@@ -51,4 +51,4 @@ MERGE (
       , adr.otherFormat         = nullIf(trim(row.otherFormat), '')
       , adr.notes               = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
 RETURN
-  'Loaded AuthorityDraftRevision Data';
+  'Loaded AuthorityDraftRevision Data' AS Action;

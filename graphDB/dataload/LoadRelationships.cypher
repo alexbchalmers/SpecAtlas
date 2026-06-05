@@ -288,4 +288,4 @@ CALL (*) {
   }
 }
 RETURN
-  'Loaded Relationship Data';
+  'Loaded Relationship Data' AS Action;
