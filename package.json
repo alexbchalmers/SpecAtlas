@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "markdownlint-rule-search-replace": "^1.2.0"
+  }
+}

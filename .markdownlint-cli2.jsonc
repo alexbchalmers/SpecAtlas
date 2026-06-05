@@ -1,0 +1,9 @@
+{
+  "customRules": [
+    "./node_modules/markdownlint-rule-search-replace"
+  ],
+
+  "modulePaths": [
+    "./node_modules"
+  ]
+}

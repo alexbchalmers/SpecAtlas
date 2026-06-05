@@ -1,4 +1,51 @@
 {
   "thunder-client.saveToWorkspace": true,
-  "thunder-client.workspaceRelativePath": ".vscode"
+  "thunder-client.workspaceRelativePath": ".vscode",
+
+  // Markdown Configuration
+  "markdown.editor.drop.enabled": "smart",
+  "markdown.editor.drop.copyIntoWorkspace": "mediaFiles",
+  "markdown.editor.filePaste.enabled": "smart",
+  "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smartWithSelection",
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.updateLinksOnFileMove.enableForDirectories": true,
+  "markdown.preview.breaks": false,
+  
+  "[markdown]": {
+    // Editor Configuration
+    "editor.fontFamily": "'MonaspiceAr Nerd Font', 'CaskaydiaCove Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": "'ss01' off, 'ss02' off, 'ss03' off, 'ss04' off, 'ss05' off, 'ss06' off, 'ss07' on, 'ss08' on, 'calt' on, 'dlig' off",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.5,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.wrappingIndent": "indent",
+    "editor.rulers": [80,120],
+    "editor.minimap.autohide": "mouseover",
+    
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    }
+  },
+
+  // General File Configuration
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+
+    "**/_site/**": true,
+  },
+
 }

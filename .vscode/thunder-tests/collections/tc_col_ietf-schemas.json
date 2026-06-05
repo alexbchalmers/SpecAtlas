@@ -16,6 +16,25 @@
       "created": "2025-03-15T04:05:37.814Z",
       "modified": "2025-03-15T04:05:58.580Z",
       "headers": []
+    },
+    {
+      "_id": "b5be7749-c4de-49c3-b581-11d75c606662",
+      "colId": "48fa4cf7-965d-40af-9e5f-bf56da9bbcc8",
+      "containerId": "",
+      "name": "Full Schema",
+      "url": "{{API_BASEURL}}/?fullschema=true",
+      "method": "GET",
+      "sortNum": 5000,
+      "created": "2026-04-28T04:11:25.960Z",
+      "modified": "2026-04-28T04:11:25.960Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "fullschema",
+          "value": "true",
+          "isPath": false
+        }
+      ]
     }
   ]
 }

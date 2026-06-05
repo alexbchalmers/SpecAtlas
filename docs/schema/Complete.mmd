@@ -1,0 +1,254 @@
+---
+config:
+
+  look:         "neo"
+  theme:        "base"
+  themeVariables:
+    fontFamily:           "Cascadia Code, Consolas, monospace"
+    fontSize:             "16px"
+    
+    background:           "#f4f4f4"
+    lineColor:            "#404040"
+    textColor:            "#000000"
+
+    primaryColor:         "#00d3f7"
+    primaryTextColor:     "#000000"
+    primaryBorderColor:   "#d3d3d3"
+
+    secondaryColor:       "#55ad82"
+    secondaryTextColor:   "#000000"
+    secondaryBorderColor: "#d3d3d3"
+
+    tertiaryColor:        "#ffffff"     # Background color for relation label
+    tertiaryTextColor:    "#000000"
+    tertiaryBorderColor:  "#d3d3d3"
+
+    noteBkgColor:         "#fff5ad"
+    noteBorderColor:      "#d3d3d3"
+    noteTextColor:        "#333333"
+
+    errorBkgColor:        "#ff5050"
+    errorTextColor:       "#000000"
+
+    rowOdd:               "#d0d0d0"
+    rowEven:              "#f0f0f0"
+  
+  themeCSS: |-
+    .node[data-id^="entity-ControllingOrg-"] .outer-path path[stroke="none"] {
+      fill: #27585b;
+    }
+
+    .node[data-id^="entity-Authority-"] .outer-path path[stroke="none"],
+    .node[data-id^="entity-AuthorityGroup-"] .outer-path path[stroke="none"]{
+      fill: #224597;
+    }
+
+    .node[data-id^="entity-ControllingOrg-"] .name .nodeLabel,
+    .node[data-id^="entity-Authority-"] .name .nodeLabel,
+    .node[data-id^="entity-AuthorityGroup-"] .name .nodeLabel{
+      color: #ffffff;
+    }
+
+    .node[data-id^="entity-AuthorityDraft-"] .outer-path path[stroke="none"],
+    .node[data-id^="entity-AuthorityDraftRevision-"] .outer-path path[stroke="none"]{
+      fill: #00d3f7;
+    }
+
+    .node[data-id^="entity-Artifact-"] .outer-path path[stroke="none"] {
+      fill: #55ad82;
+    }
+
+    .node .name .nodeLabel {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .erDiagramTitleText {
+      font-family: "Arial Black";
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+  er:
+    titleTopMargin:   25      # Default: 25
+    diagramPadding:   20      # Default: 20
+    minEntityWidth:   200     # Default: 100
+    minEntityHeight:  75      # Default: 75
+    entityPadding:    15      # Default: 15
+    nodeSpacing:      150     # Default: 140
+    rankSpacing:      80      # Default: 80
+    
+  layout: elk
+
+  elk:
+    mergeEdges: true
+    nodePlacementStrategy: NETWORK_SIMPLEX
+
+title: "Spec Atlas Data Model"
+---
+
+erDiagram
+  direction LR
+
+  ControllingOrg            }o -- o{    ControllingOrg            : "**HAS_CHILD_ORG**"
+  
+  ControllingOrg            }o -- o{    ControllingOrg            : "**PREVIOUSLY_KNOWN_AS**"
+  
+  ControllingOrg            }o -- o{    ControllingOrg            : "**SUCCEEDED_ORG**"
+
+  ControllingOrg            }o -- o{    ControllingOrg            : "**HAS_AFFILIATE_ORG**<br/>_affiliation_"
+  
+  ControllingOrg            |o -- o{    Authority                 : "**CONTROLS**"
+  ControllingOrg            |o -- o{    AuthorityGroup            : "**CONTROLS**"
+  ControllingOrg            |o -- o{    AuthorityDraft            : "**CONTROLS**"
+  
+  Authority                 }o -- o{    AuthorityGroup            : "**MEMBER_OF**"
+  AuthorityGroup            }o -- o{    AuthorityGroup            : "**MEMBER_OF**"
+  AuthorityDraft            }o -- o{    AuthorityGroup            : "**MEMBER_OF**"
+  
+  Authority                 }o -- o{    Authority                 : "**UPDATES**"
+  
+  Authority                 }o -- o|    Authority                 : "**CORRECTS**"
+  
+  Authority                 }o -- o{    Authority                 : "**SUPERSEDES**"
+  Authority                 }o -- o{    AuthorityGroup            : "**SUPERSEDES**"
+  
+  Authority                 }o -- o{    Authority                 : "**OBSOLETES**"
+  Authority                 }o -- o{    AuthorityGroup            : "**OBSOLETES**"
+  AuthorityDraftRevision    }o -- o{    AuthorityDraftRevision    : "**OBSOLETES**"
+  
+  Authority                 }o -- o{    Authority                 : "**DEPRECATES**"
+  Authority                 }o -- o{    AuthorityGroup            : "**DEPRECATES**"
+  
+  Authority                 }o -- o{    Authority                 : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  Authority                 }o -- o{    AuthorityGroup            : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  Authority                 }o -- o{    AuthorityDraftRevision    : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  AuthorityGroup            }o -- o{    Authority                 : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  AuthorityGroup            }o -- o{    AuthorityGroup            : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  AuthorityGroup            }o -- o{    AuthorityDraftRevision    : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  AuthorityDraftRevision    }o -- o{    AuthorityDraftRevision    : "**HAS_RELATED_AUTHORITY**<br/>_relationship_"
+  
+  Authority                 }o -- o{    Authority                 : "**REFERENCES**<br/>_referenceType_"
+  Authority                 }o -- o{    AuthorityGroup            : "**REFERENCES**<br/>_referenceType_"
+  Authority                 }o -- o{    AuthorityDraft            : "**REFERENCES**<br/>_referenceType_"
+  Authority                 }o -- o{    AuthorityDraftRevision    : "**REFERENCES**<br/>_referenceType_"
+  AuthorityDraftRevision    }o -- o{    Authority                 : "**REFERENCES**<br/>_referenceType_"
+  AuthorityDraftRevision    }o -- o{    AuthorityGroup            : "**REFERENCES**<br/>_referenceType_"
+  AuthorityDraftRevision    }o -- o{    AuthorityDraft            : "**REFERENCES**<br/>_referenceType_"
+  AuthorityDraftRevision    }o -- o{    AuthorityDraftRevision    : "**REFERENCES**<br/>_referenceType_"
+
+  Authority                 }o -- o{    AuthorityDraft            : "**DRAFTED_BY**"
+
+  AuthorityDraft            || -- o{    AuthorityDraftRevision    : "**HAS_REVISION**"
+
+  Authority                 }o -- o{    Artifact                  : "**DEFINES**<br/>_sourceAuthoritySection_"
+  AuthorityGroup            }o -- o{    Artifact                  : "**DEFINES**<br/>_sourceAuthoritySection_"
+  AuthorityDraft            }o -- o{    Artifact                  : "**DEFINES**<br/>_sourceAuthoritySection_"
+  AuthorityDraftRevision    }o -- o{    Artifact                  : "**DEFINES**<br/>_sourceAuthoritySection_"
+
+  Artifact                  }o -- o{    Artifact                  : "**PROFILES**"
+
+  Artifact                  }o -- o{    Artifact                  : "**VERSION_OF**"
+
+  Artifact                  }o -- o{    Artifact                  : "**VARIANT_OF**"
+
+
+  %% Entity Attribute Definitions
+
+  ControllingOrg {
+    STRING[GUID]        _controllingOrgId_              "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    STRING              **shortName**                   "UNIQUE"
+    STRING              **fullName**                    "UNIQUE"
+    STRING              **url**                         ""
+    STRING              **organizationType**            "NOT NULL"
+    STRING              **status**                      "NOT NULL"
+    DATE                **startDate**                   ""
+    DATE                **endDate**                     ""
+    LIST(STRING)        **notes**                       ""
+  }
+
+  Authority {
+    STRING[GUID]        _authorityId_                   "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    LIST(STRING)        atlasCategory                   ""
+    LIST(STRING)        atlasStatus                     "NOT NULL"
+    STRING              **reference**                   "UNIQUE"
+    STRING              **versionTag**                  ""
+    STRING              **title**                       "NOT NULL"
+    LIST(STRING)        **status**                      "NOT NULL"
+    STRING              **type**                        ""
+    STRING              **ietfStream**                  ""
+    DATE                **publishedDate**               ""
+    DATE                **deprecatedDate**              ""
+    DATE                **withdrawnDate**               ""
+    STRING              **canonicalUrl**                ""
+    STRING              **canonicalFormat**             ""
+    STRING              **plainTextUrl**                ""
+    STRING              **htmlUrl**                     ""
+    STRING              **otherUrl**                    ""
+    STRING              **otherFormat**                 ""
+    STRING              **doi**                         ""
+    LIST(STRING)        **notes**                       ""
+  }
+
+  AuthorityGroup {
+    STRING[GUID]        _authorityGroupId_              "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    LIST(STRING)        atlasStatus                     "NOT NULL"
+    STRING              **groupType**                   "NOT NULL"
+    STRING              **reference**                   "UNIQUE"
+    STRING              **title**                       "NOT NULL"
+    STRING              **url**                         ""
+    LIST(STRING)        **notes**                       ""
+  }
+
+  AuthorityDraft {
+    STRING[GUID]        _authorityDraftId_              "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    LIST(STRING)        atlasCategory                   ""
+    LIST(STRING)        atlasStatus                     "NOT NULL"
+    STRING              **reference**                   "UNIQUE"
+    STRING              **title**                       "NOT NULL"
+    LIST(STRING)        **status**                      "NOT NULL"
+    STRING              **type**                        ""
+    LIST(STRING)        **notes**                       ""
+  }
+
+  AuthorityDraftRevision {
+    STRING[GUID]        _authorityDraftRevisionId_      "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    LIST(STRING)        atlasCategory                   ""
+    LIST(STRING)        atlasStatus                     "NOT NULL"
+    STRING              **reference**                   "UNIQUE"
+    STRING              **title**                       "NOT NULL"
+    LIST(STRING)        **status**                      "NOT NULL"
+    STRING              **type**                        ""
+    STRING              **ietfStream**                  ""
+    DATE                **publishedDate**               ""
+    STRING              **canonicalUrl**                ""
+    STRING              **canonicalFormat**             ""
+    STRING              **plainTextUrl**                ""
+    STRING              **htmlUrl**                     ""
+    STRING              **otherUrl**                    ""
+    STRING              **otherFormat**                 ""
+    LIST(STRING)        **notes**                       ""
+  }
+
+  Artifact {
+    STRING[GUID]        _artifactId_                    "NODE KEY"
+    ZONED_DATETIME      _createdTimestamp_              "NOT NULL"
+    ZONED_DATETIME      _updatedTimestamp_              "NOT NULL"
+    STRING              **artifactType**                "NOT NULL"
+    STRING              **artifactSubtype**             ""
+    BOOLEAN             **artifactTypeGroup**           ""
+    STRING              **shortName**                   "UNIQUE"
+    STRING              **fullName**                    "UNIQUE"
+    LIST(STRING)        **status**                      ""
+    LIST(STRING)        **notes**                       ""
+  }

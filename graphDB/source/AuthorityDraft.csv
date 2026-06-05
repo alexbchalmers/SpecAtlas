@@ -1,0 +1,45 @@
+﻿authorityDraftId,createdTimestamp,updatedTimestamp,atlasCategory,atlasStatus,reference,title,status,type,ietfStream
+,,,,draftsCaptured,draft-hickman-netscape-ssl,The SSL Protocol,Expired,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-httpbis-p7-auth,Hypertext Transfer Protocol (HTTP/1.1): Authentication,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-ietf-jose-json-web-signature,JSON Web Signature (JWS),Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-jones-json-web-signature,JSON Web Signature (JWS),Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-jose-json-web-encryption,JSON Web Encryption (JWE),Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-jones-json-web-encryption,JSON Web Encryption (JWE),Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-jose-json-web-key,JSON Web Key (JWK),Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-jones-json-web-key,JSON Web Key (JWK),Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-jose-json-web-algorithms,JSON Web Algorithms (JWA),Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-ietf-oauth-json-web-token,JSON Web Token (JWT),Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-jones-json-web-token,JSON Web Token (JWT),Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-oauth-v2,The OAuth 2.0 Authorization Framework,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-hardt-oauth,OAuth Web Resource Authorization Profiles,Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-oauth-v2-bearer,The OAuth 2.0 Authorization Framework: Bearer Token Usage,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,oauth-v2-multiple-response-types-1_0,OAuth 2.0 Multiple Response Type Encoding Practices,Adopted,Work Group Draft,
+,,,,draftsCaptured,oauth-v2-form-post-response-mode-1_0,OAuth 2.0 Form Post Response Mode,Adopted,Work Group Draft,
+,,,,draftsCaptured,draft-ietf-oauth-v2-threatmodel,OAuth 2.0 Threat Model and Security Considerations,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-ietf-oauth-assertions,Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-ietf-oauth-saml2-bearer,Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-campbell-oauth-saml,SAML 2.0 Bearer Assertion Grant Type Profile for OAuth 2.0,Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-oauth-jwt-bearer,JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-ietf-oauth-spop,Proof Key for Code Exchange by OAuth Public Clients,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-sakimura-oauth-tcse,OAuth Symmetric Proof of Posession for Code Extension,Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-oauth-native-apps,OAuth 2.0 for Native Apps,Adopted,Internet-Draft,IETF
+,,,,draftsCaptured,draft-wdenniss-oauth-native-apps,OAuth 2.0 for Native Apps,Replaced,Internet-Draft,
+,,,,draftsCaptured,draft-ietf-oauth-v2-http-mac,OAuth 2.0 Message Authentication Code (MAC) Tokens,Expired,Internet-Draft,IETF
+,,,,draftsCaptured,openid-authentication-2_0,OpenID Authentication 2.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-attribute-exchange-1_0,OpenID Attribute Exchange 1.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-provider-authentication-policy-extension-1_0,OpenID Provider Authentication Policy Extension 1.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-simple-registration-extension-1_1,OpenID Simple Registration Extension 1.1,Expired,Work Group Draft,
+,,,,draftsCaptured,openid-value-lang-1_0,Language Tags for OpenID Values,Expired,Draft,
+,,,,draftsCaptured,openid-connect-core-1_0,OpenID Connect Core 1.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-connect-framework-1_0,OpenID Connect Framework 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-code-1_0,OpenID Connect Authorization Code Binding 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-ab-1_0,OpenID Connect Artifact Binding 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-http-redirect-1_0,OpenID Connect HTTP Redirect Binding 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-userinfo-1_0,OpenID Connect UserInfo 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-messages-1_0,OpenID Connect Messages 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-standard-1_0,OpenID Connect Standard 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-swd-1_0,OpenID Connect Simple Web Discovery 1.0,Replaced,Work Group Draft,
+,,,,draftsCaptured,openid-connect-discovery-1_0,OpenID Connect Discovery 1.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-connect-registration-1_0,OpenID Connect Dynamic Client Registration 1.0,Adopted,Work Group Draft,
+,,,,draftsCaptured,openid-connect-session-1_0,OpenID Connect Session Management 1.0,Adopted,Work Group Draft,
+,,,,stub,draft-arkko-iab-data-minimization-principle,Emphasizing Data Minimization Among Protocol Participants,Expired,Internet-Draft,IAB

@@ -1,0 +1,459 @@
+{
+  // Use default rules if not otherwise set
+  "default": true,
+
+  // ########################################
+  // Rule Summary - v0.37.x
+  // ########################################
+
+  // | S | ID    | Alias                              | Tags                                | Config Section          |
+  // |:-:|:------|:-----------------------------------|:------------------------------------|:------------------------|
+  // | X | MD001 | heading-increment                  | headings                            | Headings                |
+  // | ~ | MD002 | ~~first-heading-h1~~               | deprecated                          | N/A                     |
+  // | X | MD003 | heading-style                      | headings                            | Headings                |
+  // | X | MD004 | ul-style                           | ul bullet                           | Lists                   |
+  // | X | MD005 | list-indent                        | ul bullet indentation               | Lists                   |
+  // | ~ | MD006 | ~~ul-start-left~~                  | deprecated                          | N/A                     |
+  // | X | MD007 | ul_indent                          | ul bullet indentation               | Lists                   |
+  // | ~ | MD008 | _undefined_                        | undefined                           | N/A                     |
+  // | X | MD009 | no-trailing-spaces                 | whitespace                          | Line Formatting         |
+  // | X | MD010 | no-hard-tabs                       | hard_tab whitespace                 | Line Formatting         |
+  // | X | MD011 | no-reversed-links                  | links                               | Links and Images        |
+  // | X | MD012 | no-multiple-blanks                 | blank_lines whitespace              | Line Formatting         |
+  // | X | MD013 | line-length                        | line_length                         | Line Formatting         |
+  // | X | MD014 | commands-show-output               | code                                | Code Blocks and Spans   |
+  // | ~ | MD015 | _undefined_                        | undefined                           | N/A                     |
+  // | ~ | MD016 | _undefined_                        | undefined                           | N/A                     |
+  // | ~ | MD017 | _undefined_                        | undefined                           | N/A                     |
+  // | X | MD018 | no-missing-space-atx               | atx headings spaces                 | Headings                |
+  // | X | MD019 | no-multiple-space-atx              | atx headings spaces                 | Headings                |
+  // |   | MD020 | no-missing-space-closed-atx        | atx_closed headings spaces          | Headings                |
+  // |   | MD021 | no-multiple-space-closed-atx       | atx_closed headings spaces          | Headings                |
+  // | X | MD022 | blanks-around-headings             | blank_lines headings                | Headings                |
+  // | X | MD023 | heading-start-left                 | headings spaces                     | Headings                |
+  // | X | MD024 | no-duplicate-heading               | headings                            | Headings                |
+  // | X | MD025 | single-title                       | headings                            | Headings                |
+  // | X | MD026 | no-trailing-punctuation            | headings                            | Headings                |
+  // | X | MD027 | no-multiple-space-blockquote       | blockquote indentation whitespace   | Blockquotes             |
+  // | X | MD028 | no-blanks-blockquote               | blockquote whitespace               | Blockquotes             |
+  // | X | MD029 | ol-prefix                          | ol                                  | Lists                   |
+  // | X | MD030 | list-marker-space                  | ol ul whitespace                    | Lists                   |
+  // | X | MD031 | blanks-around-fences               | blank_lines code                    | Code Blocks and Spans   |
+  // | X | MD032 | blanks-around-lists                | blank_lines bullet ol ul            | Lists                   |
+  // | X | MD033 | no-inline-html                     | html                                | Miscellaneous           |
+  // | X | MD034 | no-bare-urls                       | links url                           | Links and Images        |
+  // | X | MD035 | hr-style                           | hr                                  | Miscellaneous           |
+  // | X | MD036 | no-emphasis-as-heading             | emphasis headings                   | Headings                |
+  // | X | MD037 | no-space-in-emphasis               | emphasis whitespace                 | Miscellaneous           |
+  // | X | MD038 | no-space-in-code                   | code whitespace                     | Code Blocks and Spans   |
+  // | X | MD039 | no-space-in-links                  | links whitespace                    | Links and Images        |
+  // | X | MD040 | fenced-code-language               | code language                       | Code Blocks and Spans   |
+  // | X | MD041 | first-line-heading                 | headings                            | Headings                |
+  // | X | MD042 | no-empty-links                     | links                               | Links and Images        |
+  // |   | MD043 | required-headings                  | headings                            | Headings                |
+  // |   | MD044 | proper-names                       | spelling                            | Miscellaneous           |
+  // | X | MD045 | no-alt-text                        | images accessibility                | Links and Images        |
+  // | X | MD046 | code-block-style                   | code                                | Code Blocks and Spans   |
+  // | X | MD047 | single-trailing-newline            | blank_lines                         | Line Formatting         |
+  // | X | MD048 | code-fence-style                   | code                                | Code Blocks and Spans   |
+  // | X | MD049 | emphasis-style                     | emphasis                            | Miscellaneous           |
+  // | X | MD050 | strong-style                       | emphasis                            | Miscellaneous           |
+  // | X | MD051 | link-fragments                     | links                               | Links and Images        |
+  // | X | MD052 | reference-links-images             | images links                        | Links and Images        |
+  // | X | MD053 | link-image-reference-definitions   | images links                        | Links and Images        |
+  // | X | MD054 | link-image-style                   | images links                        | Links and Images        |
+  // | X | MD055 | table-pipe-style                   | table                               | Miscellaneous           |
+  // | X | MD056 | table-column-count                 | table                               | Miscellaneous           |
+  // | ~ | MD057 | _undefined_                        | undefined                           | N/A                     |
+  // | X | MD058 | blanks-around-tables               | table                               | Miscellaneous           |
+
+  // ########################################
+  // Line Formatting
+  // ########################################
+ 
+  "line-length": {
+    "line_length": 120,
+    "headings": true,
+    "heading_line_length": 100,
+    "code_blocks": true,
+    "code_block_line_length": 120,
+    "tables": false,
+    "strict": false,
+    "stern": false
+  },
+
+  "no-trailing-spaces": {
+    "strict": true,
+    "br_spaces": 0,
+    "list_item_empty_lines": true
+  },
+
+  "no-hard-tabs": {
+    "spaces_per_tab": 2,
+    "code_blocks": true,
+    "ignore_code_languages": []
+  },
+
+  "no-multiple-blanks": {
+    "maximum": 1
+  },
+
+  "single-trailing-newline": true,
+
+  // ########################################
+  // Headings
+  // ########################################
+
+  "heading-style": {
+    "style": "atx"
+  },
+
+  "no-missing-space-atx": true,
+
+  "no-multiple-space-atx": true,
+
+  "blanks-around-headings": {
+    "lines_above": 1,
+    "lines_below": 0
+  },
+
+  "heading-start-left": true,
+
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+
+  "single-title": {
+    "level": 1,
+    "front_matter_title": ""
+  },
+
+  "first-line-heading": {
+    "level": 1,
+    "front_matter_title": ""
+  },
+
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:!。，；：！"
+  },
+
+  "heading-increment": true,
+
+  "no-emphasis-as-heading": true,
+
+  // ########################################
+  // Lists
+  // ########################################
+
+  "list-indent": true,
+  
+  "list-marker-space": {
+    "ul_single": 1,
+    "ul_multi": 1,
+    "ol_single": 1,
+    "ol_multi": 1
+  },
+
+  "blanks-around-lists": true,
+
+  "ul-style": {
+    "style": "dash"
+  },    
+
+  "ul-indent": {
+    "indent": 2,
+    "start_indented": false
+  },    
+
+  "ol-prefix": {
+    "style": "ordered"
+  },    
+
+  // ########################################
+  // Blockquotes
+  // ########################################
+
+  "no-multiple-space-blockquote": true,
+
+  "no-blanks-blockquote": true,
+
+  // ########################################
+  // Code Blocks and Spans
+  // ########################################
+
+  "code-block-style": {
+    "style": "fenced"
+  },
+
+  "code-fence-style": {
+    "style": "consistent"
+  },
+
+  "fenced-code-language": {
+    "allowed_languages": [
+      // Plain text and data formats
+      "text",
+      "markdown","md","mdx",
+      "mermaid",
+      "asciidoc","restructuredtext","rst",
+      "tex","latex","bibtex",
+      "csv","tsv",
+      "json","jsonc","jsonl",
+      "yaml","yml",
+      "toml",
+      "xml","xsd","wsdl","rss","xslt","xsl",
+      "regex","regexp",
+      "abnf","ebnf","antlr",
+      "yacc","bison","jison","lex",
+      "asn.1",
+      "checksum","checksums","hash","hashes",
+      "diff","udiff",
+
+      // Shell scripting
+      "powershell","posh","pwsh",
+      "batchfile","batch","bat","dosbatch","winbatch",
+      "shell","shell-script","sh","bash","zsh","tcsh","envrc",
+      "applescript","osascript",
+      "awk","sed",
+
+      // Web development
+      "html","xhtml",
+      "css","less","less-css","scss","sass","postcss",
+      "handlebars","liquid","go-template",
+      "asp.net","aspx","asp",
+      "html+razor","razor",
+      "jsp",
+      "php",
+      "webassembly","wasm","wast","wit",
+      "robots.txt","robots",
+
+      // JavaScript and TypeScript
+      "javascript","js","node","npmrc",
+      "typescript","ts","tsx",
+      "coffeescript","coffee","coffee-script",
+      "actionscript","actionscript3","as3",
+
+      // General development languages
+      "assembly","asm","nasm",
+      "basic","quickbasic","qbasic",
+      "c","c++","cpp",
+      "c#","csharp","cake","cakescript","dotenv",
+      "objective-c","objectivec","obj-c","objc",
+      "objective-c++","objectivec++","obj-c++","objc++",
+      "java",
+      "python","python3","numpy","pycon",
+      "dart",
+      "go","golang","go.sum","go.mod","go.work",
+      "rust","rs",
+      "swift",
+      "ruby","rb","rbx","gemfile.lock","rake",
+      "lua",
+      "tcl",
+      "haskell",
+      "perl","pod","pod 6",
+      "postscript",
+      "fortran","pascal","objectpascal",
+      "cobol","lisp","prolog","scheme","smalltalk",
+
+      "oasv2","oasv3",
+      "oasv2-json","oasv3-json",
+      "oasv2-yaml","oasv3-yaml",
+      "graphql",
+      "kusto",
+      "sql","plsql","sqlpl","tsql",
+
+      // Development tools
+      "makefile","make",
+      "cmake",
+      "dotenv",
+
+      "gitconfig","gitignore","gitattributes",
+      "codeowners",
+      "codeql","ql",
+
+      // Azure configuration files
+      "bicep",
+
+      // General configuration files
+      "ini","dosini",
+      "sshconfig","ssh_config","sshdconfig","sshd_config",
+      "browserslist","editorconfig","editor-config","ignore",
+      "dockerfile",
+      "hosts","dns zone",
+      "apacheconf","apache",
+      "nginx",
+
+      // Raw protocols
+      "http",
+      "public key",
+    ],
+    "language_only": false
+  },
+
+  "blanks-around-fences": true,
+
+  "commands-show-output": true,
+
+  "no-space-in-code": true,
+
+  // ########################################
+  // Links and Images
+  // ########################################
+
+  "link-image-style": {
+    "inline": true,
+    "url_inline": false,
+    "autolink": true,
+    "full": true,
+    "collapsed": true,
+    "shortcut": false
+  },
+  
+  "no-bare-urls": true,
+
+  "no-reversed-links": true,
+  
+  "no-empty-links": true,
+  
+  "link-fragments": {
+    "ignore_case": false
+  },
+
+  "no-space-in-links": true,
+
+  "reference-links-images": {
+    "shortcut_syntax": false
+  },
+
+  "link-image-reference-definitions": {
+    "ignored_definitions": [
+      "//",
+      "//begin",
+      "//end"
+    ]
+  },
+
+  "no-alt-text": true,
+
+  // ########################################
+  // Miscellaneous
+  // ########################################
+
+  "emphasis-style": {
+    "style": "underscore"
+  },
+
+  "strong-style": {
+    "style": "asterisk"
+  },
+
+  "no-space-in-emphasis": true,
+
+  "hr-style": {
+    "style": "*****"
+  },  
+
+  "table-column-count": true,
+  
+  "table-pipe-style": {
+    "style":"leading_and_trailing"
+  },
+
+  "blanks-around-tables": true,
+
+  "no-inline-html": {
+    "allowed_elements": []
+  },
+     
+  // ########################################
+  // Custom Rules
+  // ########################################
+
+  // https://github.com/OnkarRuikar/markdownlint-rule-search-replace
+  // Rules based on https://github.com/mdn/content/blob/main/.markdownlint.jsonc
+  "search-replace": {
+    "rules": [
+      {
+        "name": "double-spaces",
+        "message": "Avoid double spaces",
+        "searchPattern": "/([^\\s>])  ([^\\s|])/g",
+        "replace": "$1 $2",
+        "searchScope": "text",
+      },
+      {
+        "name": "curly-double-quotes",
+        "message": "Don't use curly double quotes",
+        "searchPattern": "/“|”/g",
+        "replace": "\"",
+        "searchScope": "text",
+      },
+      {
+        "name": "curly-single-quotes",
+        "message": "Don't use curly single quotes",
+        "searchPattern": "/‘|’/g",
+        "replace": "'",
+        "searchScope": "text",
+      },
+      {
+        "name": "nbsp",
+        "message": "Don't use no-break spaces",
+        "searchPattern": "/\u00A0|\u202F|\uFEFF/g",
+        "replace": " ",
+        "searchScope": "all",
+      },
+      {
+        "name": "m-dash",
+        "message": "Don't use '--'. Use m-dash — instead",
+        "search": " -- ",
+        "replace": " — ",
+        "searchScope": "text",
+      },
+      {
+        "name": "relative-link",
+        "message": "Internal links should start with '/'",
+        "searchPattern": "/([\\(\"])en-US\\/docs/g",
+        "replace": "$1/en-US/docs",
+        "searchScope": "text",
+      },
+      {
+        "name": "relative-link-path",
+        "message": "Don't use relative paths",
+        "search": "](..",
+        "searchScope": "text",
+      },
+      {
+        "name": "stuck-definition",
+        "message": "Character is stuck to definition description marker",
+        "searchPattern": "/- :(\\w)/g",
+        "replace": "- : $1",
+        "searchScope": "text",
+      },
+      {
+        "name": "localhost-links",
+        "message": "Don't use localhost for links",
+        "searchPattern": "/\\]\\(https?:\\/\\/localhost:\\d+\\//g",
+        "replace": "](/",
+        "searchScope": "text",
+      },
+      {
+        "name": "un-closed-md-link",
+        "message": "Missing closing bracket ')'",
+        "searchPattern": "/(\\[[^\\]]*?\\]\\(([^\\)\\n]|\\([^\\)\\n]\\)|\\s[\"'])+?)(\\n|\\s|[,:][\\s\\n])/gm",
+        "searchScope": "text",
+      },
+      {
+        "name": "gfm-alert",
+        "message": "Use the GFM syntax: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN#notes_warnings_and_callouts",
+        "searchPattern": "/^ *> \\*\\*(Note|Warning|Callout):\\*\\*(?! [[{`_*])/gm",
+        "searchScope": "text",
+      },
+      {
+        "name": "bad-gfm-alert",
+        "message": "Use the correct GFM syntax: `> [!NOTE]`",
+        // TODO this should use the modifier syntax; until it has better Node support
+        "searchPattern": "/^ *> !?\\[!?((?!NOTE)[Nn][Oo][Tt][Ee]|(?!WARNING)[Ww][Aa][Rr][Nn][Ii][Nn][Gg]|(?!CALLOUT)[Cc][Aa][Ll][Ll][Oo][Uu][Tt])\\]\\n|^ *> (?!\\[!)!?\\[!?(NOTE|WARNING|CALLOUT)\\]\\n/gm",
+        "searchScope": "text",
+      },
+    ]
+  }
+}

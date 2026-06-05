@@ -1,0 +1,173 @@
+﻿authorityGroupId,createdTimestamp,updatedTimestamp,atlasStatus,groupType,reference,title,url,notes
+,,,relOnly,versionedAuthority,US-ASCII,American Standard Code for Information Interchange,,
+,,,relOnly,versionedAuthority,ECMA-6,7-Bit Coded Character Set,https://ecma-international.org/publications-and-standards/standards/ecma-6/,
+,,,relOnly,versionedAuthority,ISO/IEC 646,Information Processing - ISO 7-bit Coded Character Set for Information Interchange,,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.50,International Reference Alphabet (IRA) / Information Processing - ISO 7-bit Coded Character Set for Information Interchange ,https://www.itu.int/myworkspace/#/t-rec/item?id=2570,
+,,,relOnly,versionedAuthority,ECMA-35,Character Code Structure and Extension Techniques,https://ecma-international.org/publications-and-standards/standards/ecma-35/,
+,,,relOnly,versionedAuthority,ISO/IEC 2022,Information technology — Character code structure and extension techniques,,
+,,,relOnly,collectedAuthority,ISO/IEC 2022:1994 (as amended),Information technology — Character code structure and extension techniques [ISO/IEC 2022:1994],https://www.iso.org/standard/22747.html,
+,,,relOnly,versionedAuthority,ISO/IEC 2375,Information technology – Registered escape sequences and coded character sets,,
+,,,relOnly,versionedAuthority,ECMA-43,8-Bit Coded Character Set Structure and Rules,https://ecma-international.org/publications-and-standards/standards/ecma-43/,
+,,,relOnly,versionedAuthority,ISO/IEC 4873,Information technology — ISO 8-bit code for information interchange — Structure and rules for implementation,,
+,,,relOnly,collectedAuthority,ISO 4873:1979 (as amended),Information processing — 8- bit coded character set for information interchange [ISO 4873:1979],,
+,,,relOnly,versionedAuthority,ECMA-48,Control Functions for Coded Character Sets,https://ecma-international.org/publications-and-standards/standards/ecma-48/,
+,,,relOnly,versionedAuthority,ISO/IEC 6429,Information technology — Control functions for coded character sets,,
+,,,relOnly,versionedAuthority,ISO/IEC 6937,Information technology — Coded graphic character set for text communication — Latin alphabet,,
+,,,relOnly,collectedAuthority,ISO 6937-2:1983 (as amended),Information processing — Coded character sets for text communication — Part 2: Latin alphabetic and non-alphabetic graphic characters,,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.51,Latin Based Coded Character Sets for Telematic Services,,
+,,,relOnly,collectedAuthority,ITU-T Rec. T.51 (09/1992) (as amended),Latin Based Coded Character Sets for Telematic Services [ITU-T Rec. T.51 (09/1992)],,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.52,Non-Latin Coded Character Sets for Telematic Services,,
+,,,relOnly,collectedAuthority,ITU-T Rec. T.52 (03/1993) (as amended),Non-Latin Coded Character Sets for Telematic Services [ITU-T Rec. T.52 (03/1993)],,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.61,Character Repertoire and Coded Character Sets for the International Teletex Service,,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.100,International Information Exchange for Interactive Videotex,,
+,,,relOnly,versionedAuthority,ITU-T Rec. T.101,International Interworking for Videotex Services,,
+,,,relOnly,collectedAuthority,ITU-T Recs. T.100/T.101,Videotex Services,,
+,,,relOnly,collectedAuthority,ISO/IEC 8859,Information technology — 8-bit single-byte coded graphic character sets,,
+,,,relOnly,versionedAuthority,ISO/IEC 10367,Information technology — Standardized coded graphic character sets for use in 8-bit codes,,
+,,,relOnly,collectedAuthority,Unicode 1.0 (as amended),The Unicode Standard [Unicode 1.0],,
+,,,relOnly,versionedAuthority,Unicode,The Unicode Standard,https://www.unicode.org/versions/enumeratedversions.html,
+,,,relOnly,versionedAuthority,ISO/IEC 10646,Information technology — Universal Multiple-Octet Coded Character Set (UCS),,
+,,,relOnly,collectedAuthority,ISO/IEC 10646-1:1993 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) — Part 1: Architecture and Basic Multilingual Plane [ISO/IEC 10646-1:1993],https://www.iso.org/standard/18741.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646-1:1993 (Unicode 2.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) — Part 1: Architecture and Basic Multilingual Plane [ISO/IEC 10646-1:1993] (equivalent to Unicode 2.0),,Subset of amendments to ISO/IEC 10464-1:1993 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646-1:2000 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) — Part 1: Architecture and Basic Multilingual Plane [ISO/IEC 10646-1:2000],https://www.iso.org/standard/29819.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2000/2001 (Unicode 3.1),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646-1:2000 and ISO/IEC 10646-2:2001] (equivalent to Unicode 3.1),,Combination of ISO/IEC 10646-1:2000 and ISO/IEC 10646-2:2001 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2000/2001 (Unicode 3.2),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646-1:2000 and ISO/IEC 10646-2:2001] (equivalent to Unicode 3.2),,Combination of ISO/IEC 10646-1:2000 (amended) and ISO/IEC 10646-2:2001 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2003 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2003],https://www.iso.org/standard/39921.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2003 (Unicode 4.1),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2003] (equivalent to Unicode 4.1),,Subset of amendments to ISO/IEC 10464:2003 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2003 (Unicode 5.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2003] (equivalent to Unicode 5.0),,Subset of amendments to ISO/IEC 10464:2003 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2003 (Unicode 5.1),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2003] (equivalent to Unicode 5.1),,Subset of amendments to ISO/IEC 10464:2003 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2003 (Unicode 5.2),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2003] (equivalent to Unicode 5.2),,Subset of amendments to ISO/IEC 10464:2003 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2012 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2012],https://www.iso.org/standard/56921.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2014 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2014],https://www.iso.org/standard/63182.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2014 (Unicode 8.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2014] (equivalent to Unicode 8.0),,Subset of amendments to ISO/IEC 10464:2014 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2014 (Unicode 9.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2014] (equivalent to Unicode 9.0),,Subset of amendments to ISO/IEC 10464:2014 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2017 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2017],https://www.iso.org/standard/69119.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2017 (Unicode 11.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2017] (equivalent to Unicode 11.0),,Subset of amendments to ISO/IEC 10464:2017 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2017 (Unicode 12.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2017] (equivalent to Unicode 12.0),,Subset of amendments to ISO/IEC 10464:2017 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2020 (as amended),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2020],https://www.iso.org/standard/76835.html,
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2020 (Unicode 15.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2020] (equivalent to Unicode 15.0),,Subset of amendments to ISO/IEC 10464:2020 for Unicode equivalence
+,,,relOnly,collectedAuthority,ISO/IEC 10646:2020 (Unicode 16.0),Information technology — Universal Multiple-Octet Coded Character Set (UCS) [ISO/IEC 10646:2020] (equivalent to Unicode 16.0),,Subset of amendments to ISO/IEC 10464:2020 for Unicode equivalence
+,,,relOnly,versionedAuthority,Unicode TR35,Unicode Technical Standard #35 — Unicode Locale Data Markup Language (LDML),https://www.unicode.org/reports/tr35/,
+,,,relOnly,versionedAuthority,Unicode CLDR,Unicode Common Locale Data Repository,https://cldr.unicode.org/,"Comprehensive repository of locale data, released twice per year"
+,,,relOnly,collectedAuthority,Internet Message Format,Internet Message Format,,
+,,,relOnly,collectedAuthority,MIME,Multipurpose Internet Mail Extensions,,
+,,,relOnly,collectedAuthority,IERS Bulletins,International Earth Rotation Service Bulletins,https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop,Bulletin A - Rapid Data and Predictions || Bulletin B - Monthly Earth Orientation Data || Bulletin C - Leap Second Announcements in UTC || Bulletin D - Announcements of DUT1
+,,,relOnly,collectedAuthority,ITU-R TF Rec. Series,ITU-R Time Signals and Frequency Standards Emissions Series,https://www.itu.int/rec/R-REC-TF/en,
+,,,relOnly,collectedAuthority,ABNF,Augmented Backus-Naur Form,,
+,,,relOnly,versionedAuthority,ISO 8601,Date and time — Representations for information interchange,,
+,,,relOnly,collectedAuthority,ISO 8601:1988 (as amended),Data Elements and Interchange Formats — Information Interchange — Representation of Dates and Times [ISO 8601:1988],https://www.iso.org/standard/15903.html,
+,,,relOnly,collectedAuthority,ISO 8601-1:2019 (as amended),Date and Time — Representations for Information Interchange — Part 1: Basic Rules [ISO 8601-1:2019],https://www.iso.org/standard/70907.html,
+,,,relOnly,collectedAuthority,ISO 8601-2:2019 (as amended),Date and Time — Representations for Information Interchange — Part 2: Extensions [ISO 8601-2:2019],https://www.iso.org/standard/70908.html,
+,,,relOnly,versionedAuthority,ISO 3166,Codes for the representation of names of countries and their subdivisions,,
+,,,relOnly,collectedAuthority,ISO 3166-1:2006 (as amended),Codes for the Representation of Names of Countries and their Subdivisions — Part 1: Country Codes [ISO 3166-1:2006],https://www.iso.org/standard/39719.html,
+,,,relOnly,versionedAuthority,ISO/IEC 6523,Information Technology — Structure for the Identification of Organizations and Organization Parts,,
+,,,relOnly,collectedAuthority,ISO 6523:1984 (as amended),Data Interchange — Structures for the Identification of Organizations [ISO 6523:1984],https://www.iso.org/standard/12908.html,
+,,,relOnly,versionedAuthority,ASN.1 (Legacy),Abstract Notation One (ASN.1) — 1984-1994,,Legacy versions of ASN.1 syntax
+,,,relOnly,versionedAuthority,ITU-T X.680 / ISO/IEC 8824-1,Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation,,Modern version of ASN.1
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (07/1994) / ISO/IEC 8824-1:1995 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (07/1994) / ISO/IEC 8824-1:1995],,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (12/1997) / ISO/IEC 8824-1:1998 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (12/1997) / ISO/IEC 8824-1:1998],,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (07/2002) / ISO/IEC 8824-1:2002 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (07/2002) / ISO/IEC 8824-1:2002],,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (11/2008) / ISO/IEC 8824-1:2008 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (11/2008) / ISO/IEC 8824-1:2008],,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (08/2015) / ISO/IEC 8824-1:2015 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (08/2015) / ISO/IEC 8824-1:2015],,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.680 (02/2021) / ISO/IEC 8824-1:2021 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Specification of Basic Notation [ITU-T Rec. X.680 (02/2021) / ISO/IEC 8824-1:2021],,
+,,,relOnly,versionedAuthority,ITU-T X.681 / ISO/IEC 8824-2,Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification,,
+,,,relOnly,collectedAuthority,ITU-T X.681 (07/1994) / ISO/IEC 8824-2:1995 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (07/1994) / ISO/IEC 8824-2:1995],,
+,,,relOnly,collectedAuthority,ITU-T X.681 (12/1997) / ISO/IEC 8824-2:1998 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (12/1997) / ISO/IEC 8824-2:1998],,
+,,,relOnly,collectedAuthority,ITU-T X.681 (07/2002) / ISO/IEC 8824-2:2002 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (07/2002) / ISO/IEC 8824-2:2002],,
+,,,relOnly,collectedAuthority,ITU-T X.681 (11/2008) / ISO/IEC 8824-2:2008 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (11/2008) / ISO/IEC 8824-2:2008],,
+,,,relOnly,collectedAuthority,ITU-T X.681 (11/2015) / ISO/IEC 8824-2:2015 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (11/2015) / ISO/IEC 8824-2:2015],,
+,,,relOnly,collectedAuthority,ITU-T X.681 (02/2021) / ISO/IEC 8824-2:2021 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Information Object Specification [ITU-T X.681 (02/2021) / ISO/IEC 8824-2:2021],,
+,,,relOnly,versionedAuthority,ITU-T X.682 / ISO/IEC 8824-3,Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification,,
+,,,relOnly,collectedAuthority,ITU-T X.682 (07/1994) / ISO/IEC 8824-3:1995 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (07/1994) / ISO/IEC 8824-3:1995],,
+,,,relOnly,collectedAuthority,ITU-T X.682 (12/1997) / ISO/IEC 8824-3:1998 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (12/1997) / ISO/IEC 8824-3:1998],,
+,,,relOnly,collectedAuthority,ITU-T X.682 (07/2002) / ISO/IEC 8824-3:2002 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (07/2002) / ISO/IEC 8824-3:2002],,
+,,,relOnly,collectedAuthority,ITU-T X.682 (11/2008) / ISO/IEC 8824-3:2008 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (11/2008) / ISO/IEC 8824-3:2008],,
+,,,relOnly,collectedAuthority,ITU-T X.682 (08/2015) / ISO/IEC 8824-3:2015 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (08/2015) / ISO/IEC 8824-3:2015],,
+,,,relOnly,collectedAuthority,ITU-T X.682 (02/2021) / ISO/IEC 8824-3:2021 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Constraint Specification [ITU-T X.682 (02/2021) / ISO/IEC 8824-3:2021],,
+,,,relOnly,versionedAuthority,ITU-T X.683 / ISO/IEC 8824-4,Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications,,
+,,,relOnly,collectedAuthority,ITU-T X.683 (07/1994) / ISO/IEC 8824-4:1995 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (07/1994) / ISO/IEC 8824-4:1995],,
+,,,relOnly,collectedAuthority,ITU-T X.683 (12/1997) / ISO/IEC 8824-4:1998 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (12/1997) / ISO/IEC 8824-4:1998],,
+,,,relOnly,collectedAuthority,ITU-T X.683 (07/2002) / ISO/IEC 8824-4:2002 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (07/2002) / ISO/IEC 8824-4:2002],,
+,,,relOnly,collectedAuthority,ITU-T X.683 (11/2008) / ISO/IEC 8824-4:2008 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (11/2008) / ISO/IEC 8824-4:2008],,
+,,,relOnly,collectedAuthority,ITU-T X.683 (08/2015) / ISO/IEC 8824-4:2015 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (08/2015) / ISO/IEC 8824-4:2015],,
+,,,relOnly,collectedAuthority,ITU-T X.683 (02/2021) / ISO/IEC 8824-4:2021 (as amended),Information Technology — Abstract Syntax Notation One (ASN.1): Parameterization of ASN.1 Specifications [ITU-T X.683 (02/2021) / ISO/IEC 8824-4:2021],,
+,,,relOnly,versionedAuthority,ITU-T X.690 / ISO/IEC 8825-1,"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (07/1994) / ISO/IEC 8825-1:1995 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (07/1994) / ISO/IEC 8825-1:1995]",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (12/1997) / ISO/IEC 8825-1:1998 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (12/1997) / ISO/IEC 8825-1:1998]",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (07/2002) / ISO/IEC 8825-1:2002 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (07/2002) / ISO/IEC 8825-1:2002]",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (11/2008) / ISO/IEC 8825-1:2008 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (11/2008) / ISO/IEC 8825-1:2008]",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (08/2015) / ISO/IEC 8825-1:2015 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (08/2015) / ISO/IEC 8825-1:2015]",,
+,,,relOnly,collectedAuthority,ITU-T X.690 (02/2021) / ISO/IEC 8825-1:2021 (as amended),"Information technology — ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) [ITU-T X.690 (02/2021) / ISO/IEC 8825-1:2021]",,
+,,,relOnly,versionedAuthority,ISO 8879,Information Processing — Text and Office Systems — Standard Generalized Markup Language (SGML),,
+,,,relOnly,collectedAuthority,ISO 8879:1986 (as amended),Information Processing — Text and Office Systems — Standard Generalized Markup Language (SGML) [ISO 8879:1986],,
+,,,relOnly,versionedAuthority,W3C REC XML1.0,Extensible Markup Language (XML) 1.0,https://www.w3.org/TR/xml/,
+,,,relOnly,versionedAuthority,W3C REC XML1.1,Extensible Markup Language (XML) 1.1,https://www.w3.org/TR/xml11/,
+,,,relOnly,versionedAuthority,HTML (versioned specs),Hypertext Markup Language (fixed versions),,
+,,,relOnly,collectedAuthority,HTML 2.0,Hypertext Markup Language 2.0,,
+,,,relOnly,versionedAuthority,HTML 4.0,Hypertext Markup Language 4.0,,
+,,,relOnly,versionedAuthority,XHTML 1.0,Extensible Hypertext Markup Language 1.0,,
+,,,relOnly,versionedAuthority,XHTML 1.1,Extensible Hypertext Markup Language 1.1,,
+,,,relOnly,versionedAuthority,HTML 5.1,Hypertext Markup Language 5.1,,
+,,,relOnly,versionedAuthority,ECMA-262 / ISO/IEC 16262,ECMAScript Language Specification,https://ecma-international.org/publications-and-standards/standards/ecma-262/,
+,,,relOnly,versionedAuthority,ECMA-402,ECMAScript Internationalization API Specification,https://ecma-international.org/publications-and-standards/standards/ecma-402/,
+,,,relOnly,versionedAuthority,ECMA-404 / ISO/IEC 21778 / JSON RFCs,The JSON Data Interchange Syntax,https://ecma-international.org/publications-and-standards/standards/ecma-404/,
+,,,relOnly,versionedAuthority,ECMA-414 / ISO/IEC 22275,ECMAScript Specification Suite,https://ecma-international.org/publications-and-standards/standards/ecma-414/,
+,,,relOnly,versionedAuthority,ITU-T Rec. X.509 / ISO/IEC 9594-8,Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks,,
+,,,relOnly,collectedAuthority,CCITT Rec. X.509 (11/1988) (as amended),The Directory — Authentication Framework [CCITT Rec. X.509 (11/1988)] as amended,,
+,,,relOnly,collectedAuthority,ISO/IEC 9594-8:1990 (as amended),Information Technology — Open Systems Interconnection — The Directory — Part 8: Authentication Framework [ISO/IEC 9594-8:1990] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (11/1993) / ISO/IEC 9594-8:1995 (as amended),Information Technology — Open Systems Interconnection — The Directory: Authentication Framework [ITU-T Rec. X.509 (11/1993) / ISO/IEC 9594-8:1995] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (08/1997) / ISO/IEC 9594-8:1998 (as amended),Information Technology — Open Systems Interconnection — The Directory: Authentication Framework [ITU-T Rec. X.509 (08/1997) / ISO/IEC 9594-8:1998] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (03/2000) / ISO/IEC 9594-8:2001 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (03/2000) / ISO/IEC 9594-8:2001] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (08/2005) / ISO/IEC 9594-8:2005 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (08/2005) / ISO/IEC 9594-8:2005] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (11/2008) / ISO/IEC 9594-8:2008 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (11/2008) / ISO/IEC 9594-8:2008] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (10/2012) / ISO/IEC 9594-8:2014 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (10/2012) / ISO/IEC 9594-8:2014] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (10/2016) / ISO/IEC 9594-8:2017 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (10/2016) / ISO/IEC 9594-8:2017] as amended,,
+,,,relOnly,collectedAuthority,ITU-T Rec. X.509 (10/2019) / ISO/IEC 9594-8:2020 (as amended),Information Technology — Open Systems Interconnection — The Directory: Public-Key and Attribute Certificate Frameworks [ITU-T Rec. X.509 (10/2019) / ISO/IEC 9594-8:2020] as amended,,
+,,,relOnly,collectedAuthority,NTPv4,Network Time Protocol v4,,
+,,,relOnly,versionedAuthority,SSL/TLS,Secure Sockets Layer and Transport Layer Security,,
+,,,relOnly,collectedAuthority,SSL v1.0,The Secure Sockets Layer Protocol (SSL) Version 1.0,,
+,,,relOnly,collectedAuthority,SSL v2.0,The Secure Sockets Layer Protocol (SSL) Version 2.0,,
+,,,relOnly,collectedAuthority,SSL v3.0,The Secure Sockets Layer Protocol (SSL) Version 3.0,,
+,,,relOnly,versionedAuthority,TLS,Transport Layer Security,,
+,,,relOnly,versionedAuthority,DTLS,Datagram Transport Layer Security,,
+,,,relOnly,versionedAuthority,HTTP/HTTPS,Hypertext Transfer Protocol,,
+,,,relOnly,versionedAuthority,OpenID Connect Core 1.0 (as amended),OpenID Connect Core 1.0,https://openid.net/specs/openid-connect-core-1_0.html,
+,,,relOnly,versionedAuthority,OpenID Connect Discovery 1.0 (as amended),OpenID Connect Discovery 1.0,https://openid.net/specs/openid-connect-discovery-1_0.html,
+,,,relOnly,versionedAuthority,OpenID Connect Dynamic Client Registration 1.0 (as amended),OpenID Connect Dynamic Client Registration 1.0,https://openid.net/specs/openid-connect-registration-1_0.html,
+,,,relOnly,versionedAuthority,OpenID Connect Session Management 1.0 (as amended),OpenID Connect Session Management 1.0,https://openid.net/specs/openid-connect-session-1_0.html,
+,,,relOnly,ietfInternetStandard,STD3,STD 3,https://www.rfc-editor.org/info/std3,Requirements for Internet Hosts
+,,,relOnly,ietfInternetStandard,STD11,STD 11,https://www.rfc-editor.org/info/std11,Format of Internet Text Messages
+,,,relOnly,ietfInternetStandard,STD63,STD 63,https://www.rfc-editor.org/info/std63,"Unicode or ISO/IEC 10646 character set, UTF-8 presentation"
+,,,relOnly,ietfInternetStandard,STD66,STD 66,https://www.rfc-editor.org/info/std66,URI syntax
+,,,relOnly,ietfInternetStandard,STD68,STD 68,https://www.rfc-editor.org/info/std68,ABNF
+,,,relOnly,ietfInternetStandard,STD70,STD 70,https://www.rfc-editor.org/info/std70,Cryptographic Message Syntax
+,,,relOnly,ietfInternetStandard,STD80,STD 80,https://www.rfc-editor.org/info/std80,ASCII character set
+,,,relOnly,ietfInternetStandard,STD90,STD 90,https://www.rfc-editor.org/info/std90,JSON
+,,,relOnly,ietfInternetStandard,STD97,STD 97,https://www.rfc-editor.org/info/std97,HTTP semantics
+,,,relOnly,ietfInternetStandard,STD98,STD 98,https://www.rfc-editor.org/info/std98,HTTP caching
+,,,relOnly,ietfInternetStandard,STD99,STD 99,https://www.rfc-editor.org/info/std99,HTTP/1.1
+,,,relOnly,ietfBestCurrentPractice,BCP9,BCP 9,https://www.rfc-editor.org/info/bcp9,Internet Standards Process
+,,,relOnly,ietfBestCurrentPractice,BCP13,BCP 13,https://www.rfc-editor.org/info/bcp13,Media Registration Procedures
+,,,relOnly,ietfBestCurrentPractice,BCP14,BCP 14,https://www.rfc-editor.org/info/bcp14,RFC keywords
+,,,relOnly,ietfBestCurrentPractice,BCP25,BCP 25,https://www.rfc-editor.org/info/bcp25,IETF Procedures
+,,,relOnly,ietfBestCurrentPractice,BCP26,BCP 26,https://www.rfc-editor.org/info/bcp26,Guidelines for Writing an IANA Considerations Section in RFCs
+,,,relOnly,ietfBestCurrentPractice,BCP33,BCP 33,https://www.rfc-editor.org/info/bcp33,URN Namespace Definition Mechanisms
+,,,relOnly,ietfBestCurrentPractice,BCP35,BCP 35,https://www.rfc-editor.org/info/bcp35,URI registration guidelines and registration procedures
+,,,relOnly,ietfBestCurrentPractice,BCP82,BCP 82,https://www.rfc-editor.org/info/bcp82,Assigning Experimental and Testing Numbers Considered Useful
+,,,relOnly,ietfBestCurrentPractice,BCP86,BCP 86,https://www.rfc-editor.org/info/bcp86,Determining Strengths for Public Keys Used for Exchanging Symmetric Keys
+,,,relOnly,ietfBestCurrentPractice,BCP90,BCP 90,https://www.rfc-editor.org/info/bcp90,Registration procedures for message header fields
+,,,relOnly,ietfBestCurrentPractice,BCP97,BCP 97,https://www.rfc-editor.org/info/bcp97,Referencing IETF documents
+,,,relOnly,ietfBestCurrentPractice,BCP106,BCP 106,https://www.rfc-editor.org/info/bcp106,Randomness Requirements for Security
+,,,relOnly,ietfBestCurrentPractice,BCP107,BCP 107,https://www.rfc-editor.org/info/bcp107,Guidelines for Cryptographic Key Management
+,,,relOnly,ietfBestCurrentPractice,BCP175,BCP 175,https://www.rfc-editor.org/info/bcp175,Procedures for Maintaining the Time Zone Database
+,,,relOnly,ietfBestCurrentPractice,BCP178,BCP 178,https://www.rfc-editor.org/info/bcp178,"Deprecating the ""X-"" Prefix and Similar Constructs in Application Protocols"
+,,,relOnly,ietfBestCurrentPractice,BCP182,BCP 182,https://www.rfc-editor.org/info/bcp182,Algorithm Agility Procedure for the Resource Public Key Infrastructure (RPKI)
+,,,relOnly,ietfBestCurrentPractice,BCP190,BCP 190,https://www.rfc-editor.org/info/bcp190,URI design and ownership
+,,,relOnly,ietfBestCurrentPractice,BCP195,BCP 195,https://www.rfc-editor.org/info/bcp195,TLS usage best practices
+,,,relOnly,ietfBestCurrentPractice,BCP200,BCP 200,https://www.rfc-editor.org/info/bcp200,IAB and IESG Statement on Cryptographic Technology and the Internet
+,,,relOnly,ietfBestCurrentPractice,BCP201,BCP 201,https://www.rfc-editor.org/info/bcp201,Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms
+,,,relOnly,ietfBestCurrentPractice,BCP212,BCP 212,https://www.rfc-editor.org/info/bcp212,OAuth 2.0 for Native Apps
+,,,relOnly,ietfBestCurrentPractice,BCP216,BCP 216,https://www.rfc-editor.org/info/bcp216,Guidelines for Authors and Reviewers of Documents Containing YANG Data Models
+,,,relOnly,ietfBestCurrentPractice,BCP225,BCP 225,https://www.rfc-editor.org/info/bcp225,JSON Web Token Best Current Practices
+,,,relOnly,ietfBestCurrentPractice,BCP240,BCP 240,https://www.rfc-editor.org/info/bcp240,Best Current Practice for OAuth 2.0 Security
+,,,relOnly,ietfForYourInformation,FYI36,FYI 36,https://www.rfc-editor.org/info/fyi36,Internet Security Glossary

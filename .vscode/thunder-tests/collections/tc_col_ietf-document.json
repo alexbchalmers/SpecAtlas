@@ -10,7 +10,7 @@
       "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
       "containerId": "",
       "name": "Document Search",
-      "url": "{{API_BASEURL}}/doc/document/?name=rfc6749",
+      "url": "{{API_BASEURL}}/doc/document/?name=std68",
       "method": "GET",
       "sortNum": 10000,
       "created": "2025-03-14T18:39:45.362Z",
@@ -24,7 +24,7 @@
       "params": [
         {
           "name": "name",
-          "value": "rfc6749",
+          "value": "std68",
           "isPath": false
         }
       ]
@@ -116,6 +116,56 @@
           "name": "limit",
           "value": "25",
           "isDisabled": true,
+          "isPath": false
+        }
+      ]
+    },
+    {
+      "_id": "6b807bf0-b178-4640-9634-82ba7eae9796",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "Document URL Copy",
+      "url": "https://datatracker.ietf.org/api/v1/doc/documenturl/",
+      "method": "GET",
+      "sortNum": 50000,
+      "created": "2026-04-28T03:48:47.101Z",
+      "modified": "2026-04-28T03:48:47.101Z",
+      "headers": [],
+      "params": [
+        {
+          "name": "limit",
+          "value": "25",
+          "isDisabled": true,
+          "isPath": false
+        },
+        {
+          "name": "doc__name",
+          "value": "rfc6749",
+          "isDisabled": true,
+          "isPath": false
+        }
+      ]
+    },
+    {
+      "_id": "f2e29521-b17f-468d-a2e5-f214578e0c54",
+      "colId": "c2b4fbde-051d-422f-a0db-e20a93e22fef",
+      "containerId": "",
+      "name": "Document History Search",
+      "url": "{{API_BASEURL}}/doc/dochistory/?doc__name=rfc6749",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2026-04-28T04:13:17.093Z",
+      "modified": "2026-04-28T04:13:17.093Z",
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "httpClient/1.0"
+        }
+      ],
+      "params": [
+        {
+          "name": "doc__name",
+          "value": "rfc6749",
           "isPath": false
         }
       ]
