@@ -1,250 +1,250 @@
-﻿controllingOrgId,createdTimestamp,updatedTimestamp,shortName,fullName,url,organizationType,status,startDate,endDate,notes
-,,,IETF,Internet Engineering Task Force,https://www.ietf.org/,open standards organization,Active,1986-01,,"IETF succeeds multiple organizations for managing the RFC series, starting in 1969"
-,,,IESG,Internet Engineering Steering Group,https://datatracker.ietf.org/group/iesg/about/,topic focus group,Active,1989,,IESG formed prior to IETF-14 (1989-07)
-,,,IETF GEN Area,IETF General Area,https://datatracker.ietf.org/group/gen/about/,topic focus group,Active,1994,,Earliest entry of GEN Area in IETF Meeting Proceedings is IETF-30 (1994-07)
-,,,iasa2 WG,IETF Adminstrative Support Activity 2 working group,https://datatracker.ietf.org/wg/iasa2/about/,topic focus group,Closed,2018-04-20,2020-03-05,
-,,,poised95 WG,Process for Organization of Internet Standards (POISED) 95 working group,https://datatracker.ietf.org/wg/poised95/about/,topic focus group,Closed,1995-07-13,1996-03-30,
-,,,poisson WG,Process for Organization of Internet Standards ONgoing working group,https://datatracker.ietf.org/wg/poisson/about/,topic focus group,Closed,1995-07-13,2001-10-26,
-,,,IETF SEC Area,IETF Security Area,https://datatracker.ietf.org/group/sec/about/,topic focus group,Active,1983-09-06,,
-,,,oauth WG,Web Authorization Protocol working group,https://datatracker.ietf.org/wg/oauth/about/,topic focus group,Active,2009-05-12,,
-,,,jose WG,Javascript Object Signing and Encryption working group,https://datatracker.ietf.org/wg/jose/about/,topic focus group,Active,2011-09-21,,
-,,,scim WG,System for Cross-domain Identity Management working group,https://datatracker.ietf.org/wg/scim/about/,topic focus group,Active,2012-06-12,,
-,,,cose WG,CBOR Object Signing and Encryption working group,https://datatracker.ietf.org/wg/cose/about/,topic focus group,Active,2015-06-03,,
-,,,spice WG,Secure Patterns for Internet CrEdentials working group,https://datatracker.ietf.org/wg/spice/about/,topic focus group,Active,2023-09-28,,
-,,,rats WG,Remote ATtestation ProcedureS working group,https://datatracker.ietf.org/wg/rats/about/,topic focus group,Active,2018-09-26,,
-,,,scitt WG,"Supply Chain Integrity, Transparency, and Trust working group",https://datatracker.ietf.org/wg/scitt/about/,topic focus group,Active,2022-06-02,,
-,,,ace WG,Authentication and Authorization for Constrained Environments working group,https://datatracker.ietf.org/wg/ace/about/,topic focus group,Active,2014-01-22,,
-,,,httpauth WG,Hypertext Transfer Protocol Authentication working group,https://datatracker.ietf.org/wg/httpauth/about/,topic focus group,Closed,2012,2017-02-01,Start date unclear
-,,,kitten WG,Common Authentication Technology Next Generation working group,https://datatracker.ietf.org/wg/kitten/about/,topic focus group,Active,2004-10-28,,
-,,,radext WG,RADIUS EXTensions working group,https://datatracker.ietf.org/wg/radext/about/,topic focus group,Active,2004-07-08,,
-,,,tls WG,Transport Layer Security working group,https://datatracker.ietf.org/wg/tls/about/,topic focus group,Active,1996-05-24,,
-,,,uta WG,Using TLS in Applications,https://datatracker.ietf.org/wg/uta/about/,topic focus group,Active,2013-12-11,,
-,,,pem WG,Privacy-Enhanced Electronic Mail working group,https://datatracker.ietf.org/wg/pem/about/,topic focus group,Closed,1991-07-15,1996-02-08,
-,,,ipsec WG,IP Security Protocol working group,https://datatracker.ietf.org/wg/ipsec/about/,topic focus group,Closed,1993-06-17,2005-04-29,
-,,,pkix WG,Public-Key Infrastructure (X.509) working group,https://datatracker.ietf.org/wg/pkix/about/,topic focus group,Closed,1995-10-26,2013-10-31,
-,,,lamps WG,Limited Additional Mechanisms for PKIX and SMIME working group,https://datatracker.ietf.org/wg/lamps/about/,topic focus group,Active,2016-07-01,,
-,,,smime WG,S/MIME Mail Security working group,https://datatracker.ietf.org/wg/smime/about/,topic focus group,Closed,1997-11-06,2010-10-12,
-,,,curdle WG,"CURves, Deprecating and a Little more Encryption working group",https://datatracker.ietf.org/wg/curdle/about/,topic focus group,Closed,2015-12-18,2022-02-03,
-,,,openpgp WG,Open Specification for Pretty Good Privacy working group,https://datatracker.ietf.org/wg/openpgp/about/,topic focus group,Active,1997-09-30,,
-,,,IETF APP Area,IETF Applications Area,https://datatracker.ietf.org/group/app/about/,topic focus group,Closed,1983-09-06,,
-,,,822ext WG,Internet Message Extensions working group,https://datatracker.ietf.org/wg/822ext/about/,topic focus group,Closed,1991-04-05,1993-10-05,
-,,,drums WG,Detailed Revision/Update of Message Standards working group,https://datatracker.ietf.org/wg/drums/about/,topic focus group,Closed,1995-05-18,2001-04-26,
-,,,html WG,HyperText Markup Language working group,https://datatracker.ietf.org/wg/html/about/,topic focus group,Closed,1994-11-03,1996-09-16,
-,,,http WG,HyperText Transfer Protocol working group,https://datatracker.ietf.org/wg/http/about/,topic focus group,Closed,1995-01-26,2000-10-11,
-,,,httpstate WG,WGHTTP State Management Mechanism working group,https://datatracker.ietf.org/wg/httpstate/about/,topic focus group,Closed,2009-12-11,2011-05-18,
-,,,impp WG,Instant Messaging and Presence Protocol working group,https://datatracker.ietf.org/wg/impp/about/,topic focus group,Closed,1999-02-25,2004-09-08,
-,,,json WG,JavaScript Object Notation working group,https://datatracker.ietf.org/wg/json/about/,topic focus group,Closed,2013-05-31,2015-03-23,
-,,,mhtml WG,MIME Encapsulation of Aggregate HTML Documents working group,https://datatracker.ietf.org/wg/mhtml/about/,topic focus group,Closed,1996-03-28,1999-06-25,
-,,,tn3270e WG,Telnet TN3270 Enhancements working group,https://datatracker.ietf.org/wg/tn3270e/about/,topic focus group,Closed,1997-03-24,2004-02-19,
-,,,uribof WG,Uniform Resource Identifiers working group,https://datatracker.ietf.org/wg/uribof/about/,topic focus group,Closed,1992-11-30,1995-07-21,
-,,,urlreg WG,Uniform Resource Locator Registration Procedures working group,https://datatracker.ietf.org/wg/urlreg/about/,topic focus group,Closed,1997-07-24,1999-11-15,
-,,,urn WG,Uniform Resource Names working group,https://datatracker.ietf.org/wg/urn/about/,topic focus group,Closed,1996-09-24,2002-10-21,
-,,,urnbis WG,"WGUniform Resource Names, Revised working group",https://datatracker.ietf.org/wg/urnbis/about/,topic focus group,Closed,2010-11-23,2017-10-25,
-,,,IETF ART Area,IETF Applications and Real-Time Area,https://datatracker.ietf.org/group/art/about/,topic focus group,Active,2015-05-28,,
-,,,appsawg WG,ART Area General Applications working group,https://datatracker.ietf.org/wg/appsawg/about/,topic focus group,Closed,2010-10-26,2017-07-06,
-,,,jsonbis WG,Javascript Object Notation Update working group,https://datatracker.ietf.org/wg/jsonbis/about/,topic focus group,Closed,2015-06-26,2017-12-18,
-,,,mediaman WG,Media Type Maintenance working group,https://datatracker.ietf.org/wg/mediaman/about/,topic focus group,Active,2021-08-26,,
-,,,sedate WG,Serialising Extended Data About Times and Events working group,https://datatracker.ietf.org/wg/sedate/about/,topic focus group,Closed,2021-07-02,2024-05-02,
-,,,wimse WG,Workload Identity in Multi System Environments working group,https://datatracker.ietf.org/wg/wimse/about/,topic focus group,Active,2023-09-28,,
-,,,xmpp WG,Extensible Messaging and Presence Protocol working group,https://datatracker.ietf.org/wg/xmpp/about/,topic focus group,Closed,2009-05-29,2015-09-14,
-,,,IETF INT Area,IETF Internet Area,https://datatracker.ietf.org/group/int/about/,topic focus group,Active,1983-09-06,,
-,,,6man WG,IPv6 Maintenance working group,https://datatracker.ietf.org/wg/6man/about/,topic focus group,Active,2007-09-20,,
-,,,ipngwg WG,IPNG working group,https://datatracker.ietf.org/wg/ipngwg/about/,topic focus group,Closed,1994-11-17,2001-12-06,
-,,,ipv6 WG,IP Version 6 working group,https://datatracker.ietf.org/wg/ipv6/about/,topic focus group,Closed,2000-12-05,2007-09-23,
-,,,ntp WG,Network Time Protocols working group,https://datatracker.ietf.org/wg/ntp/about/,topic focus group,Active,2005-02-17,,
-,,,IETF OPS Area,IETF Operations and Management Area,https://datatracker.ietf.org/wg/ops/about/,topic focus group,Active,1983-09-06,,
-,,,netmod WG,Network Modeling working group,https://datatracker.ietf.org/wg/netmod/about/,topic focus group,Active,2008-04-29,,
-,,,IETF RTG Area,IETF Routing Area,https://datatracker.ietf.org/group/rtg/about/,topic focus group,Active,1983-09-06,,
-,,,sidr WG,Secure Inter-Domain Routing working group,https://datatracker.ietf.org/wg/sidr/about/,topic focus group,Closed,2006-04-12,2018-09-06,
-,,,IETF TSV Area,IETF Transport Area,https://datatracker.ietf.org/group/tsv/about/,topic focus group,Closed,1983-09-06,2024-01-18,End date unclear
-,,,IETF WIT Area,IETF Web and Internet Transport Area,https://datatracker.ietf.org/group/wit/about/,topic focus group,Active,,,Start date unclear
-,,,httpbis WG,HTTP working group,https://datatracker.ietf.org/wg/httpbis/about/,topic focus group,Active,2007-10-18,,
-,,,masque WG,Multiplexed Application Substrate over QUIC Encryption working group,https://datatracker.ietf.org/wg/masque/about/,topic focus group,Active,2020-06-14,,
-,,,quic WG,QUIC working group,https://datatracker.ietf.org/wg/quic/about/,topic focus group,Active,2016-10-04,,
-,,,tcpm WG,TCP Maintenance and Minor Extensions working group,https://datatracker.ietf.org/wg/tcpm/about/,topic focus group,Active,2004-02-05,,
-,,,IRTF,Internet Research Task Force,https://www.irtf.org/,open standards organization,,,,
-,,,IRSG,Internet Research Steering Group,https://datatracker.ietf.org/group/irsg/about/,topic focus group,Active,2012-08-02,,
-,,,cfrg RG,Crypto Forum research group,https://datatracker.ietf.org/rg/cfrg/about/,topic focus group,Active,2002-07-17,,
-,,,IANA,Internet Assigned Numbers Authority,https://www.iana.org/,special purpose organization,Active,1988-12,,"IANA functions established in RFC1083, currently operated through affiliation with ICANN"
-,,,ICANN,Internet Corporation for Assigned Names and Numbers,https://www.icann.org/,special purpose organization,Active,1998-09-30,,
-,,,PTI (ICANN),Public Technical Identifiers,https://pti.icann.org/,special purpose organization,Active,2016-10-01,,
-,,,OIDF,OpenID Foundation,https://openid.net/,open standards organization,Active,2007,,
-,,,AB/Connect WG,OpenID AB/Connect working group,https://openid.net/wg/connect/,topic focus group,Active,2010-03,,
-,,,AuthZEN WG,AuthZEN working group,https://openid.net/wg/authzen/,topic focus group,Active,2023-10,,
-,,,DCP WG,Digital Credentials Protocols working group,https://openid.net/wg/digital-credentials-protocols/,topic focus group,Active,2023-08,,
-,,,EAP WG,Enhanced Authentication Profile working group,https://openid.net/wg/eap/,topic focus group,Closed,2016-07,2025-06,
-,,,eKYC-IDA WG,eKYC and Identity Assurance working group,https://openid.net/wg/ekyc-ida/,topic focus group,Active,2019-12,,
-,,,FAPI WG,FAPI working group,https://openid.net/wg/fapi/,topic focus group,Active,2016-05,,
-,,,FastFed WG,FastFed working group,https://openid.net/wg/fastfed/,topic focus group,Abandoned,2016-07,2022-03,"Last active meeting notes found for 2022-03-16, meeting on 2022-08-31 ended due to lack of attendance"
-,,,HEART WG,HEART working group,https://openid.net/wg/heart/,topic focus group,Abandoned,2014-12,2022-03,"Last active messages in mail archive from 2022-03-31, last meeting 2020-04"
-,,,iGov WG,iGov working group,https://openid.net/wg/igov/,topic focus group,Active,2015-08,,
-,,,IPSIE WG,Interoperability Profiling for Secure Identity in the Enterprise working group,https://openid.net/wg/ipsie/,topic focus group,Active,2024-10,,
-,,,MODRNA WG,"Mobile Operator Discovery, Registration & Authentication working group",https://openid.net/wg/modrna/,topic focus group,Active,2014-07,,
-,,,R&E WG,Research and Education working group,https://openid.net/wg/rande/,topic focus group,Abandoned,2018-11,2022-03,Last active meeting notes found for 2022-03-23
-,,,Shared Signals WG,Shared Signals working group,https://openid.net/wg/sharedsignals/,topic focus group,Active,2015-04,,
-,,,WHATWG,Web Hypertext Application Technology Working Group,https://whatwg.org/,open standards organization,Active,2004,,
-,,,W3C,World Wide Web Consortium,https://www.w3.org/,open standards organization,Active,1994,,
-,,,did WG,Decentralized Identifier working group,https://www.w3.org/groups/wg/did/,open standards organization,Active,2019-09-05,2026-04-28,End date based on current charter
-,,,fedid WG,Federated Identity working group,https://www.w3.org/groups/wg/fedid/,open standards organization,Active,2024-03-28,2027-02-25,End date based on current charter
-,,,vc WG,Verifiable Credentials working group,https://www.w3.org/groups/wg/vc/,open standards organization,Active,2017-04-14,2026-10-11,End date based on current charter
-,,,webauthn WG,Web Authentication working group,https://www.w3.org/groups/wg/webauthn/,open standards organization,Active,2016-02-08,2026-04-30,End date based on current charter
-,,,xml WG,XML Core working group,https://www.w3.org/XML/Core/,open standards organization,Closed,,2016,
-,,,FIDO Alliance,FIDO Alliance,https://fidoalliance.org/,industry association,Active,2013-02,,
-,,,FIDO2 TWG,FIDO2 technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,
-,,,DO TWG,Device Onboarding technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,
-,,,Metadata TWG,Metadata Service technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,
-,,,UAF TWG,Universal Authentication Framework technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,
-,,,Kantara,Kantara Initiative,https://kantarainitiative.org/,industry association,Active,2009,,
-,,,UMA WG,User Managed Access working group,https://kantarainitiative.org/work-groups/uma/,topic focus group,Active,2009-07-15,,Last meeting with quorum per notes on 2023-08-24
-,,,IA WG,Identity Assurance working group,https://kantarainitiative.org/work-groups/iawg/,topic focus group,Active,2009,,
-,,,RIUP WG,Resilient Identifiers for Underserved Populations working group,https://kantarainitiative.org/work-groups/riup/,topic focus group,Active,2022-10-04,,
-,,,PEMC WG,Privacy Enhancing Mobile Credentials working group,https://kantarainitiative.org/work-groups/pemc/,topic focus group,Active,2021,,
-,,,ANCR WG,Anchored Notice and Consent Receipts working group,https://kantarainitiative.org/work-groups/ancr/,topic focus group,Active,2021,,
-,,,Ecma,Ecma International,https://ecma-international.org/,open standards organization,Active,1994,,Reorganized from European Computer Manufacturers Association
-,,,ECMA (Ecma),European Computer Manufacturers Association,,industry association,Reorganized,1961-05-17,1994,Reorganized into Ecma International
-,,,ECMA TC1,Codes (Coded character sets),,topic focus group,Closed,,,
-,,,ECMA TC39,Programming Languages (ECMAScript),https://ecma-international.org/technical-committees/tc39/,topic focus group,Active,1996,,
-,,,OASIS,OASIS Open,https://www.oasis-open.org/,open standards organization,Active,1993,,"Founded as SGML Open in 1993, assumed current name in 1998"
-,,,Security TC,OASIS Security Services technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security,topic focus group,Closed,,,
-,,,WSFed TC,OASIS Web Services Federation technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wsfed,topic focus group,Closed,,,
-,,,WS-SX TC,OASIS Web Services Secure Exchange technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ws-sx,topic focus group,Closed,,,
-,,,WSS TC,OASIS Web Services Security technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss,topic focus group,Closed,,,
-,,,WSS-M TC,OASIS Web Services Security Maintenance technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss-m,topic focus group,Closed,,,
-,,,XACML TC,OASIS eXtensible Access Control Markup Language technical committee,https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=67afe552-0921-49b7-9a85-018dc7d3ef1d,topic focus group,Active,,,
-,,,NIST,National Institute of Standards and Technology (US),https://www.nist.gov/,regional/national standards organization,Active,1988-08-23,,Reorganized from National Bureau of Standards (US)
-,,,NBS (NIST),National Bureau of Standards (US),,regional/national standards organization,Reorganized,1901-03-03,1988-08-23,Reorganized into National Institute of Standards and Technology (US)
-,,,ISO,International Organization for Standardization,https://www.iso.org/,international standards organization,Active,1947-02-23,,
-,,,ISO TC 46,ISO technical committee - Information and Documentation,https://www.iso.org/committee/48750.html,international standards organization,Active,1947,,
-,,,ISO TC 97,ISO technical committee - Computers Information Processing,,international standards organization,Reorganized,1960,1987,Reorganized into ISO/IEC JTC 1
-,,,TC97 SC 2,TC97 subcommittee - Character Sets and Information Coding (SC2),,topic focus group,Reorganized,1961,1987,Reorganized into JTC1 SC 2
-,,,TC97 SC 18,TC97 subcommittee - Text Preparation and Interchange (SC18),,topic focus group,Reorganized,1981,1987,Reorganized into JTC1 SC 18
-,,,ISO TC 154,"ISO technical committee - Processes, Data Elements and Documents in Commerce, Industry and Administration",https://www.iso.org/committee/53186.html,international standards organization,Active,1972,,
-,,,IEC,International Electrotechnical Commission,https://iec.ch/,international standards organization,Active,1906-06-26,,
-,,,IEC TC 83,IEC technical committee - Information Technology Equipment,,international standards organization,Reorganized,,1987,Reorganized into ISO/IEC JTC 1
-,,,ISO/IEC JTC 1,ISO/IEC Joint Technical Committee for Information Technology (JTC 1),https://jtc1info.org/,international standards organization,Active,1987,,Reorganized from ISO TC97 and IEC TC83
-,,,JTC1 SC 2,JTC1 subcommittee - Coded Character Sets (SC 2),https://www.iso.org/committee/45050.html,topic focus group,Active,1987,,Reorganized from ISO TC97 SC2
-,,,JTC1 SC 6,JTC1 subcommittee - Telecommunications and Information Exchange between Systems (SC 6),https://www.iso.org/committee/45072.html,topic focus group,Active,1987,,Reorganized from ISO TC97 SC6
-,,,JTC1 SC 14,JTC1 subcommittee - Data Elements (SC 14),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,1987,1997,Reorganized into JTC1 SC32
-,,,JTC1 SC 17,JTC1 subcommittee - Smart Card (SC 17),https://jtc1info.org/technology/subcommittees/smart-cards/,topic focus group,Active,1987,,Reorganized from ISO TC97 SC17 || Original SC formed in 1969
-,,,JTC1 SC 18,JTC1 subcommittee - Text and Office Systems (SC 18),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,1987,1997,Reorganized into JTC1/SC 34 || Reorganized from ISO TC97 SC18
-,,,JTC1 SC 21,JTC1 subcommittee - Upper Layers of OSI (SC 21),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,1987,1997,Portions reorganized into ISO/IEC JTC1 SC32 and SC33
-,,,JTC1 SC 22,"JTC1 subcommittee - Programming Languages, Their Environments and System Software Interfaces (SC 22)",https://www.iso.org/committee/45202.html,topic focus group,Active,1987,,
-,,,JTC1 SC 27,"JTC1 subcommittee - Information Security, Cybersecurity and Privacy Protection (SC 27)",https://jtc1info.org/technology/subcommittees/information-security-cybersecurity-privacy-protection/,topic focus group,Active,1990,,Partially reorganized from ISO/IEC JTC1 SC20
-,,,JTC1 SC 30,JTC1 subcommittee - Open Electronic Data Interchange,https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,1994,1997,Portions reorganized into ISO/IEC JTC1 SC32
-,,,JTC1 SC 32,JTC1 subcommittee - Data Management and Interchange (SC 32),https://jtc1info.org/technology/subcommittees/data-mgmt-and-interchange/,topic focus group,Active,1997,,"Reorganized from portions of ISO/IEC JTC SC14, SC21, SC30"
-,,,JTC1 SC 34,JTC1 subcommittee - Document Description and Processing Languages (SC 34),https://jtc1info.org/technology/subcommittees/document-description-and-processing-languages/,topic focus group,Active,1998,,Reorganized from portions of JTC1 SC18
-,,,JTC1 SC 37,JTC1 subcommittee - Biometrics (SC 37),https://jtc1info.org/technology/subcommittees/biometrics/,topic focus group,Active,2002-08,,
-,,,ITU,International Telecommunication Union,https://www.itu.int/,international standards organization,Active,1865-05-17,,
-,,,CCITT (ITU-T),International Telegraph and Telephone Consultative Committee,,international standards organization,Reorganized,1956,1992,Reorganized from CCIF and CCIT || Reorganized into ITU-T
-,,,CCITT JWP NRD (1972),CCITT Joint Working Group NRD (Study Period 1968-1972) - New Data Networks,,topic focus group,Reorganized,1969,1972,Reorganized into CCITT SG 7 (1976)
-,,,CCITT SG 7 (1976),CCITT Study Group VII (Study Period 1973-1976) - New Networks for Data Transmission,,topic focus group,Continued,1973,1976,Reorganized from CCITT JWP NRD (1972)
-,,,CCITT SG 7 (1980),CCITT Study Group VII (Study Period 1977-1980) - New Networks for Data Transmission,,topic focus group,Continued,1977,1980,
-,,,CCITT SG 7 (1984),CCITT Study Group VII (Study Period 1981-1984) - Data Communication Networks,,topic focus group,Continued,1981,1984,
-,,,CCITT SG 7 (1988),CCITT Study Group VII (Study Period 1985-1988) - Data Communication Networks,,topic focus group,Continued,1985,1988,
-,,,CCITT SG 7 (1992),CCITT Study Group VII (Study Period 1989-1992) - Data Communication Networks,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T SG 7 (1996)
-,,,CCITT SG 8 (1960),"CCITT Study Group 8 (Study Period 1957-1960) - Telegraph Apparatus and Local Connecting Lines, Facsimile and Phototelegraphy",,topic focus group,Reorganized,1957,1960,Reorganized into CCITT SG 8 (1964) and SG 14 (1964)
-,,,CCITT SG 8 (1964),CCITT Study Group VIII (Study Period 1961-1964) - Alphabetic Telegraph Apparatus and Local Connecting Lines,,topic focus group,Continued,1961,1964,Reorganized from portions of CCITT SG 8 (1960)
-,,,CCITT SG 8 (1968),CCITT Study Group VIII (Study Period 1965-1968) - Telegraph Equipment and Local Connecting Lines,,topic focus group,Continued,1965,1968,
-,,,CCITT SG 8 (1972),CCITT Study Group VIII (Study Period 1969-1972) - Telegraph Equipment and Local Connecting Lines,,topic focus group,Continued,1969,1972,
-,,,CCITT SG 8 (1976),"CCITT Study Group VIII (Study Period 1973-1976) - Telegraph and Data Terminal Equipment, Local Connecting Lines",,topic focus group,Continued,1973,1976,
-,,,CCITT SG 8 (1980),"CCITT Study Group VIII (Study Period 1977-1980) - Telegraph and Data Terminal Equipment, Local Connecting Lines",,topic focus group,Reorganized,1977,1980,"Reorganized into updated CCITT SG VIII (1984), telex terminal questions to SG IX (1984)"
-,,,CCITT SG 8 (1984),CCITT Study Group VIII (Study Period 1981-1984) - Terminal Equipment for Telematic Services,,topic focus group,Continued,1981,1984,Reorganized from merging CCITT SG VIII (1980) and SG XIV (1980)
-,,,CCITT SG 8 (1988),CCITT Study Group VIII (Study Period 1985-1988) - Terminal Equipment for Telematic Services,,topic focus group,Continued,1985,1988,
-,,,CCITT SG 8 (1992),CCITT Study Group VIII (Study Period 1989-1992) - Terminals for Telematic Services,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T SG 8 (1996)
-,,,CCITT SG 9 (1960),"CCITT Study Group 9 (Study Period 1957-1960) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,1957,1960,
-,,,CCITT SG 9 (1964),"CCITT Study Group IX (Study Period 1961-1964) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,1961,1964,
-,,,CCITT SG 9 (1968),"CCITT Study Group IX (Study Period 1965-1968) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,1965,1968,
-,,,CCITT SG 9 (1972),"CCITT Study Group IX (Study Period 1969-1972) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,1969,1972,
-,,,CCITT SG 9 (1976),"CCITT Study Group IX (Study Period 1973-1976) - Telegraph Transmission Quality, Specification of Equipment and Rules for the Maintenance of Telegraph Channels",,topic focus group,Continued,1973,1976,
-,,,CCITT SG 9 (1980),"CCITT Study Group IX (Study Period 1977-1980) - Telegraph Transmission Quality, Specification of Equipment and Rules for the Maintenance of Telegraph Channels",,topic focus group,Reorganized,1977,1980,Reorganized into updated CCITT SG IX (1984)
-,,,CCITT SG 9 (1984),CCITT Study Group IX (Study Period 1981-1984) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Continued,1981,1984,"Reorganized from merging CCITT SG IX (1980) and SG X (1980), incorporating telex terminal questions from SG VIII (1980)"
-,,,CCITT SG 9 (1988),CCITT Study Group IX (Study Period 1985-1988) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Continued,1985,1988,
-,,,CCITT SG 9 (1992),CCITT Study Group IX (Study Period 1989-1992) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T SG 14 (1996) for telex questions and SG 1 (1996) for other questions
-,,,CCITT SG 10 (1960),CCITT Study Group 10 (Study Period 1957-1960) - Telegraph Switching,,topic focus group,Continued,1957,1960,
-,,,CCITT SG 10 (1964),CCITT Study Group X (Study Period 1961-1964) - Telegraph Switching,,topic focus group,Continued,1961,1964,
-,,,CCITT SG 10 (1968),CCITT Study Group X (Study Period 1965-1968) - Telegraph Switching,,topic focus group,Continued,1965,1968,
-,,,CCITT SG 10 (1972),CCITT Study Group X (Study Period 1969-1972) - Telegraph Switching,,topic focus group,Continued,1969,1972,
-,,,CCITT SG 10 (1976),CCITT Study Group X (Study Period 1973-1976) - Telegraph Switching,,topic focus group,Continued,1973,1976,
-,,,CCITT SG 10 (1980),CCITT Study Group X (Study Period 1977-1980) - Telegraph Switching,,topic focus group,Reorganized,1977,1980,Reorganized into updated CCITT SG IX (1984)
-,,,CCITT SG 10 (1988),CCITT Study Group X (Study Period 1985-1988) - Languages and Methods for Telecommunications Applications,,topic focus group,Continued,1985,1988,"New study group, unrelated to CCITT SG X (1980) || Incorporated questions moved from CCITT SG XI (1984) and SG VII (1984)"
-,,,CCITT SG 10 (1992),CCITT Study Group X (Study Period 1989-1992) - Languages for Telecommunications Applications,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T SG 10 (1996)
-,,,CCITT SG 11 (1960),CCITT Study Group 11 (Study Period 1957-1960) - Telephone Signalling and Switching,,topic focus group,Continued,1957,1960,
-,,,CCITT SG 11 (1964),CCITT Study Group XI (Study Period 1961-1964) - Telephone Signalling and Switching,,topic focus group,Continued,1961,1964,
-,,,CCITT SG 11 (1968),CCITT Study Group XI (Study Period 1965-1968) - Telephone Signalling and Switching,,topic focus group,Continued,1965,1968,
-,,,CCITT SG 11 (1972),CCITT Study Group XI (Study Period 1969-1972) - Telephone Signalling and Switching,,topic focus group,Continued,1969,1972,
-,,,CCITT SG 11 (1976),CCITT Study Group XI (Study Period 1973-1976) - Telephone Signalling and Switching,,topic focus group,Continued,1973,1976,
-,,,CCITT SG 11 (1980),CCITT Study Group XI (Study Period 1977-1980) - Telephone Signalling and Switching,,topic focus group,Continued,1977,1980,
-,,,CCITT SG 11 (1984),CCITT Study Group XI (Study Period 1981-1984) - Telephone Signalling and Switching,,topic focus group,Reorganized,1981,1984,Reorganized into updated CCITT SG XI (1988) with some questions moved to CCITT SG X (1988)
-,,,CCITT SG 11 (1988),CCITT Study Group XI (Study Period 1985-1988) - ISDN and Telephone Network and Signalling,,topic focus group,Continued,1985,1988,
-,,,CCITT SG 11 (1992),CCITT Study Group XI (Study Period 1989-1992) - Switching and Signalling,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T 11 (1996)
-,,,CCITT SG 14 (1964),CCITT Study Group XIV (Study Period 1961-1964) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,1961,1964,Reorganized from portions of CCITT SG 8 (1960)
-,,,CCITT SG 14 (1968),CCITT Study Group XIV (Study Period 1965-1968) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,1965,1968,
-,,,CCITT SG 14 (1972),CCITT Study Group XIV (Study Period 1969-1972) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,1969,1972,
-,,,CCITT SG 14 (1976),CCITT Study Group XIV (Study Period 1973-1976) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,1973,1976,
-,,,CCITT SG 14 (1980),CCITT Study Group XIV (Study Period 1977-1980) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Reorganized,1977,1980,Reorganized into updated CCITT SG 8 (1984)
-,,,CCITT SSG A (1964),CCITT Special Study Group A (Study Period 1961-1964) - Data Transmission,,topic focus group,Continued,1961,1964,
-,,,CCITT SSG A (1968),CCITT Special Study Group A (Study Period 1965-1968) - Data Transmission,,topic focus group,Continued,1965,1968,
-,,,CCITT SSG A (1972),CCITT Special Study Group A (Study Period 1969-1972)  - Data Transmission,,topic focus group,Continued,1969,1972,
-,,,CCITT SSG A (1976),CCITT Special Study Group A (Study Period 1973-1976) - Data Transmission,,topic focus group,Reorganized,1973,1976,Reorganized into CCITT SG 17
-,,,CCITT SG 17 (1980),CCITT Study Group XVII (Study Period 1977-1980) - Data Transmission,,topic focus group,Continued,1977,1980,Reorganized from CCITT SSG A
-,,,CCITT SG 17 (1984),CCITT Study Group XVII (Study Period 1981-1984) - Data Communication Over the Telephone Network,,topic focus group,Continued,1981,1984,
-,,,CCITT SG 17 (1988),CCITT Study Group XVII (Study Period 1985-1988) - Data Communication Over the Telephone Network,,topic focus group,Continued,1985,1988,
-,,,CCITT SG 17 (1992),CCITT Study Group XVII (Study Period 1989-1992) - Data Communication Over the Telephone Network,,topic focus group,Reorganized,1989,1992,Reorganized into ITU-T SG 14 (1996)
-,,,ITU-R,ITU Radiocommunication Sector,https://itu.int/itu-r/,international standards organization,Active,1992,,Reorganized from CCIR
-,,,ITU-T,ITU Telecommunication Standardization Sector,https://itu.int/itu-t/,international standards organization,Active,1992,,Reorganized from CCITT
-,,,ITU-T SG 4 (1996),ITU-T Study Group 4 (Study Period 1993-1996) - Network Maintenance,,topic focus group,Continued,1993,1996,Reorganized from CCITT IV (1992)
-,,,ITU-T SG 4 (2000),ITU-T Study Group 4 (Study Period 1996-2000) - TMN and Network Maintenance,,topic focus group,Continued,1996,2000,
-,,,ITU-T SG 4 (2004),"ITU-T Study Group 4 (Study Period 2001-2004) - Telecommunication Management, including TMN",,topic focus group,Continued,2001,2004,Incorporated questions from ITU-T SG 7 (2000)
-,,,ITU-T SG 4 (2008),ITU-T Study Group 4 (Study Period 2005-2008) - Telecommunication Management,,topic focus group,Reorganized,2005,2008,Reorganized into ITU-T SG 2 (2012) and SG 15 (2012)
-,,,ITU-T SG 7 (1996),ITU-T Study Group 7 (Study Period 1993-1996) - Data Networks and Open Systems Communications,,topic focus group,Continued,1993,1996,Reorganized from CCITT SG 7 (1992)
-,,,ITU-T SG 7 (2000),ITU-T Study Group 7 (Study Period 1996-2000) - Data Networks and Open Systems Communications,,topic focus group,Reorganized,1997,2000,Reorganized into ITU-T SG 7 (2004) and SG 4 (2004)
-,,,ITU-T SG 7 (2004),ITU-T Study Group 7 (Study Period 2001-2004) - Data Networks and Open Systems Communications,,topic focus group,Reorganized,2001,2001-09-16,Reorganized into ITU-T SG 17 (2004)
-,,,ITU-T SG 8 (1996),ITU-T Study Group 8 (Study Period 1993-1996) - Terminals for Telematic Services,,topic focus group,Reorganized,1993,1996,Reorganized from CCITT SG 8 (1992) || Some questions transferred to ITU-T SG 16 (2000)
-,,,ITU-T SG 8 (2000),ITU-T Study Group 8 (Study Period 1996-2000) - Characteristics of Telematic Systems,,topic focus group,Reorganized,1996,2000,Reorganized into ITU-T SG 16 (2004)
-,,,ITU-T SG 10 (1996),ITU-T Study Group 10 (Study Period 1993-1996) - Languages for Telecommunication Applications,,topic focus group,Continued,1993,1996,Reorganized from CCITT SG 10 (1992)
-,,,ITU-T SG 10 (2000),ITU-T Study Group 10 (Study Period 1996-2000) - Languages and General Software Aspects for Telecommunication Systems,,topic focus group,Continued,1996,2000,
-,,,ITU-T SG 10 (2004),ITU-T Study Group 10 (Study Period 2000-2004) - Languages and General Software Aspects for Telecommunication Systems,,topic focus group,Reorganized,2001,2001-09-16,Reorganized into ITU-T SG 17 (2004)
-,,,ITU-T SG 13 (2008),ITU-T Study Group 13 (Study Period 2005-2008) - Next Generation Networks,,topic focus group,Continued,2005,2008,Reorganized from ITU-T SG 13 (2004) and SG 17 (2004)
-,,,ITU-T SG 14 (1996),"ITU-T Study Group 14 (Study Period 1993-1996) - Modems and Transmission Techniques for Data, Telegraph and Telematic Services",,topic focus group,Reorganized,1993,1996,Reorganized from CCITT SG 17 (1992) and portions of SG 9 (1992) || Reorganized into existing ITU-T SG 15 (2000) and new SG 16 (2000)
-,,,ITU-T SG 16 (2000),ITU-T Study Group 16 (Study Period 1996-2000) - Multimedia Services and Systems,,topic focus group,Continued,1996,2000,
-,,,ITU-T SG 16 (2004),"ITU-T Study Group 16 (Study Period 2001-2004) - Multimedia Services, Systems and Terminals",,topic focus group,Continued,2001,2004,Incorporated questions from discontinued ITU-T SG 8 (2000)
-,,,ITU-T SG 16 (2008),"ITU-T Study Group 16 (Study Period 2005-2008) - Multimedia Terminals, Systems and Applications",,topic focus group,Continued,2005,2008,Incorporated questions from ITU-T SG 15 (2004)
-,,,ITU-T SG 16 (2012),"ITU-T Study Group 16 (Study Period 2009-2012) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,2009,2012,
-,,,ITU-T SG 16 (2016),"ITU-T Study Group 16 (Study Period 2013-2016) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,2013,2016,
-,,,ITU-T SG 16 (2021),"ITU-T Study Group 16 (Study Period 2017-2021) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,2017,2021,
-,,,ITU-T SG 16 (2024),"ITU-T Study Group 16 (Study Period 2022-2024) - Multimedia Coding, Systems and Applications",,topic focus group,Reorganized,2022,2024,Reorganized to ITU-T SG 21 (2028)
-,,,ITU-T SG 17 (2004),ITU-T Study Group 17 (Study Period 2001-2004) - Data Networks and Telecommunication Software,,topic focus group,Reorganized,2001-09-17,2004,Reorganized from ITU-T SG 7 (2004) and SG 10 (2004) || Reorganized into ITU-T SG 13 (2008) and SG 17 (2008)
-,,,ITU-T SG 17 (2008),"ITU-T Study Group 17 (Study Period 2005-2008) - Security, Languages and Telecommunication Software",,topic focus group,Continued,2005,2008,Reorganized from ITU-T SG 17  (2004)
-,,,ITU-T SG 17 (2012),ITU-T Study Group 17 (Study Period 2009-2012) - Security,,topic focus group,Continued,2009,2012,
-,,,ITU-T SG 17 (2016),ITU-T Study Group 17 (Study Period 2013-2016) - Security,,topic focus group,Continued,2013,2016,
-,,,ITU-T SG 17 (2021),ITU-T Study Group 17 (Study Period 2017-2021) - Security,,topic focus group,Continued,2017,2021,
-,,,ITU-T SG 17 (2024),ITU-T Study Group 17 (Study Period 2022-2024) - Security,,topic focus group,Continued,2022,2024,
-,,,ITU-T SG 17 (2028),ITU-T Study Group 17 (Study Period 2025-2028) - Security,https://www.itu.int/en/ITU-T/studygroups/2025-2028/17/Pages/default.aspx,topic focus group,Active,2025,2028,
-,,,ANSI,American National Standards Institute,https://ansi.org/,regional/national standards organization,Active,1969,,Reorganized from USASI
-,,,USASI (ANSI),United States of America Standards Institute,,regional/national standards organization,Reorganized,1966,1969,Reorganized from ASA || Reorganized into ANSI
-,,,ASA (ANSI),American Standards Association,,regional/national standards organization,Reorganized,1928,1966,Reorganized from AESC || Reorganized into USASI
-,,,AESC (ANSI),American Engineering Standards Committee,,regional/national standards organization,Reorganized,1918,1928,Reorganized into ASA
-,,,USNC (ANSI),United States National Committee of the IEC,https://www.ansi.org/usnc-iec/,regional/national standards organization,Active,1907,,"Affiliated with ASA and successors from 1931 for administrative support, becomes formal body of ANSI in 1976 "
-,,,INCITS,InterNational Committee for Information Technology Standards,https://www.incits.org/,regional/national standards organization,Active,2001,,Reorganized from NCITS
-,,,NCITS (INCITS),"Accredited Standards Committee NCITS, National Committee for Information Technology",,regional/national standards organization,Reorganized,1997,2001,Reorganized from X3 || Reorganized into INCITS
-,,,X3 (INCITS),"Accredited Standards Committee X3, Information Technology",,regional/national standards organization,Reorganized,1961,1997,Reorganized into NCITS
-,,,INCITS/L2,L2 - Character Sets and Internationalization technical committee,https://www.incits.org/committees/l2,topic focus group,Active,,,Reorganized from X3L2
-,,,X3L2,X3L2 Subcommittee on Character Sets and Codes,,topic focus group,Reorganized,,,Reorganized from X3.2 || Reorganized into INCITS/L2
-,,,X3.2,X3.2 Subcommittee on Codes and Input-Output,,topic focus group,Reorganized,,,Reorganized into X3L2
-,,,ETSI,European Telecommunications Standards Institute,https://www.etsi.org/,regional/national standards organization,Active,1988,,
-,,,ENISA,European Union Agency for Cybersecurity,https://www.enisa.europa.eu/,regional/national standards organization,Active,2004-03-13,,
-,,,ITI,Information Technology Industry Council,https://www.itic.org/,industry association,Active,1994,,Reorganized from CBEMA
-,,,CBEMA (ITI),Computer and Business Equipment Manufacturers Association,,industry association,Reorganized,1973,1994,Reorganized from BEMA || Reorganized into ITI
-,,,BEMA (ITI),Business Equipment Manufacturers Association,,industry association,Reorganized,1961,1973,Reorganized from OEMI || Reorganized into CBEMA
-,,,OEMI (ITI),Office Equipment Manufacturers Institute,,industry association,Reorganized,1929,1961,Reorganized from NAOAM || Reorganized into BEMA
-,,,NAOAM (ITI),National Association of Office Appliance Manufacturers,,industry association,Reorganized,1916,1929,Reorganized into OEMI
-,,,ICAO,International Civil Aviation Organization,https://www.icao.int/,international standards organization,Active,1944,,
-,,,SVTA,Streaming Video Technology Alliance,https://www.svta.org/,industry association,Active,,,
-,,,OATC,Open Authentication Technology Committee,https://oatc.svta.org/,topic focus group,Closed,,,
-,,,Unicode,Unicode Consortium,https://unicode.org/,industry association,Active,1991-01-03,,
-,,,Netscape,Netscape Communications Corporation,,independent organization,Reorganized,1994-11-14,1999-03-17,Reorganized from Mosaic || Acquired by America Online
-,,,Mosaic (Netscape),Mosaic Communications Corporation,,independent organization,Reorganized,1994-04-04,1994-11-14,Reorganized into Netscape
-,,,Open Group,The Open Group,https://www.opengroup.org,industry association,Active,1996,,Reorganized from X/Open and Open Software Foundation
-,,,X/Open (Open Group),X/Open Company,,industry association,Reorganized,1987,1996,Reorganized into The Open Group with Open Software Foundation
-,,,BISON (Open Group),Open Group for Unix Systems,,industry association,Reorganized,1984,1987,Reorganized into X/Open Company
-,,,OSF (Open Group),Open Software Foundation,,industry association,Reorganized,1988,1996,Reorganized into The Open Group with X/Open Company
+﻿controllingOrgId,createdTimestamp,updatedTimestamp,shortName,fullName,url,organizationType,status,displayGroup,startDate,endDate,notes
+,,,IETF,Internet Engineering Task Force,https://www.ietf.org/,open standards organization,Active,true,1986-01,,"IETF succeeds multiple organizations for managing the RFC series, starting in 1969"
+,,,IESG,Internet Engineering Steering Group,https://datatracker.ietf.org/group/iesg/about/,topic focus group,Active,true,1989,,IESG formed prior to IETF-14 (1989-07)
+,,,IETF GEN Area,IETF General Area,https://datatracker.ietf.org/group/gen/about/,topic focus group,Active,true,1994,,Earliest entry of GEN Area in IETF Meeting Proceedings is IETF-30 (1994-07)
+,,,iasa2 WG,IETF Adminstrative Support Activity 2 working group,https://datatracker.ietf.org/wg/iasa2/about/,topic focus group,Closed,true,2018-04-20,2020-03-05,
+,,,poised95 WG,Process for Organization of Internet Standards (POISED) 95 working group,https://datatracker.ietf.org/wg/poised95/about/,topic focus group,Closed,true,1995-07-13,1996-03-30,
+,,,poisson WG,Process for Organization of Internet Standards ONgoing working group,https://datatracker.ietf.org/wg/poisson/about/,topic focus group,Closed,true,1995-07-13,2001-10-26,
+,,,IETF SEC Area,IETF Security Area,https://datatracker.ietf.org/group/sec/about/,topic focus group,Active,true,1983-09-06,,
+,,,oauth WG,Web Authorization Protocol working group,https://datatracker.ietf.org/wg/oauth/about/,topic focus group,Active,true,2009-05-12,,
+,,,jose WG,Javascript Object Signing and Encryption working group,https://datatracker.ietf.org/wg/jose/about/,topic focus group,Active,true,2011-09-21,,
+,,,scim WG,System for Cross-domain Identity Management working group,https://datatracker.ietf.org/wg/scim/about/,topic focus group,Active,true,2012-06-12,,
+,,,cose WG,CBOR Object Signing and Encryption working group,https://datatracker.ietf.org/wg/cose/about/,topic focus group,Active,true,2015-06-03,,
+,,,spice WG,Secure Patterns for Internet CrEdentials working group,https://datatracker.ietf.org/wg/spice/about/,topic focus group,Active,true,2023-09-28,,
+,,,rats WG,Remote ATtestation ProcedureS working group,https://datatracker.ietf.org/wg/rats/about/,topic focus group,Active,true,2018-09-26,,
+,,,scitt WG,"Supply Chain Integrity, Transparency, and Trust working group",https://datatracker.ietf.org/wg/scitt/about/,topic focus group,Active,true,2022-06-02,,
+,,,ace WG,Authentication and Authorization for Constrained Environments working group,https://datatracker.ietf.org/wg/ace/about/,topic focus group,Active,true,2014-01-22,,
+,,,httpauth WG,Hypertext Transfer Protocol Authentication working group,https://datatracker.ietf.org/wg/httpauth/about/,topic focus group,Closed,true,2012,2017-02-01,Start date unclear
+,,,kitten WG,Common Authentication Technology Next Generation working group,https://datatracker.ietf.org/wg/kitten/about/,topic focus group,Active,true,2004-10-28,,
+,,,radext WG,RADIUS EXTensions working group,https://datatracker.ietf.org/wg/radext/about/,topic focus group,Active,true,2004-07-08,,
+,,,tls WG,Transport Layer Security working group,https://datatracker.ietf.org/wg/tls/about/,topic focus group,Active,true,1996-05-24,,
+,,,uta WG,Using TLS in Applications,https://datatracker.ietf.org/wg/uta/about/,topic focus group,Active,true,2013-12-11,,
+,,,pem WG,Privacy-Enhanced Electronic Mail working group,https://datatracker.ietf.org/wg/pem/about/,topic focus group,Closed,true,1991-07-15,1996-02-08,
+,,,ipsec WG,IP Security Protocol working group,https://datatracker.ietf.org/wg/ipsec/about/,topic focus group,Closed,true,1993-06-17,2005-04-29,
+,,,pkix WG,Public-Key Infrastructure (X.509) working group,https://datatracker.ietf.org/wg/pkix/about/,topic focus group,Closed,true,1995-10-26,2013-10-31,
+,,,lamps WG,Limited Additional Mechanisms for PKIX and SMIME working group,https://datatracker.ietf.org/wg/lamps/about/,topic focus group,Active,true,2016-07-01,,
+,,,smime WG,S/MIME Mail Security working group,https://datatracker.ietf.org/wg/smime/about/,topic focus group,Closed,true,1997-11-06,2010-10-12,
+,,,curdle WG,"CURves, Deprecating and a Little more Encryption working group",https://datatracker.ietf.org/wg/curdle/about/,topic focus group,Closed,true,2015-12-18,2022-02-03,
+,,,openpgp WG,Open Specification for Pretty Good Privacy working group,https://datatracker.ietf.org/wg/openpgp/about/,topic focus group,Active,true,1997-09-30,,
+,,,IETF APP Area,IETF Applications Area,https://datatracker.ietf.org/group/app/about/,topic focus group,Closed,true,1983-09-06,,
+,,,822ext WG,Internet Message Extensions working group,https://datatracker.ietf.org/wg/822ext/about/,topic focus group,Closed,true,1991-04-05,1993-10-05,
+,,,drums WG,Detailed Revision/Update of Message Standards working group,https://datatracker.ietf.org/wg/drums/about/,topic focus group,Closed,true,1995-05-18,2001-04-26,
+,,,html WG,HyperText Markup Language working group,https://datatracker.ietf.org/wg/html/about/,topic focus group,Closed,true,1994-11-03,1996-09-16,
+,,,http WG,HyperText Transfer Protocol working group,https://datatracker.ietf.org/wg/http/about/,topic focus group,Closed,true,1995-01-26,2000-10-11,
+,,,httpstate WG,WGHTTP State Management Mechanism working group,https://datatracker.ietf.org/wg/httpstate/about/,topic focus group,Closed,true,2009-12-11,2011-05-18,
+,,,impp WG,Instant Messaging and Presence Protocol working group,https://datatracker.ietf.org/wg/impp/about/,topic focus group,Closed,true,1999-02-25,2004-09-08,
+,,,json WG,JavaScript Object Notation working group,https://datatracker.ietf.org/wg/json/about/,topic focus group,Closed,true,2013-05-31,2015-03-23,
+,,,mhtml WG,MIME Encapsulation of Aggregate HTML Documents working group,https://datatracker.ietf.org/wg/mhtml/about/,topic focus group,Closed,true,1996-03-28,1999-06-25,
+,,,tn3270e WG,Telnet TN3270 Enhancements working group,https://datatracker.ietf.org/wg/tn3270e/about/,topic focus group,Closed,true,1997-03-24,2004-02-19,
+,,,uribof WG,Uniform Resource Identifiers working group,https://datatracker.ietf.org/wg/uribof/about/,topic focus group,Closed,true,1992-11-30,1995-07-21,
+,,,urlreg WG,Uniform Resource Locator Registration Procedures working group,https://datatracker.ietf.org/wg/urlreg/about/,topic focus group,Closed,true,1997-07-24,1999-11-15,
+,,,urn WG,Uniform Resource Names working group,https://datatracker.ietf.org/wg/urn/about/,topic focus group,Closed,true,1996-09-24,2002-10-21,
+,,,urnbis WG,"WGUniform Resource Names, Revised working group",https://datatracker.ietf.org/wg/urnbis/about/,topic focus group,Closed,true,2010-11-23,2017-10-25,
+,,,IETF ART Area,IETF Applications and Real-Time Area,https://datatracker.ietf.org/group/art/about/,topic focus group,Active,true,2015-05-28,,
+,,,appsawg WG,ART Area General Applications working group,https://datatracker.ietf.org/wg/appsawg/about/,topic focus group,Closed,true,2010-10-26,2017-07-06,
+,,,jsonbis WG,Javascript Object Notation Update working group,https://datatracker.ietf.org/wg/jsonbis/about/,topic focus group,Closed,true,2015-06-26,2017-12-18,
+,,,mediaman WG,Media Type Maintenance working group,https://datatracker.ietf.org/wg/mediaman/about/,topic focus group,Active,true,2021-08-26,,
+,,,sedate WG,Serialising Extended Data About Times and Events working group,https://datatracker.ietf.org/wg/sedate/about/,topic focus group,Closed,true,2021-07-02,2024-05-02,
+,,,wimse WG,Workload Identity in Multi System Environments working group,https://datatracker.ietf.org/wg/wimse/about/,topic focus group,Active,true,2023-09-28,,
+,,,xmpp WG,Extensible Messaging and Presence Protocol working group,https://datatracker.ietf.org/wg/xmpp/about/,topic focus group,Closed,true,2009-05-29,2015-09-14,
+,,,IETF INT Area,IETF Internet Area,https://datatracker.ietf.org/group/int/about/,topic focus group,Active,true,1983-09-06,,
+,,,6man WG,IPv6 Maintenance working group,https://datatracker.ietf.org/wg/6man/about/,topic focus group,Active,true,2007-09-20,,
+,,,ipngwg WG,IPNG working group,https://datatracker.ietf.org/wg/ipngwg/about/,topic focus group,Closed,true,1994-11-17,2001-12-06,
+,,,ipv6 WG,IP Version 6 working group,https://datatracker.ietf.org/wg/ipv6/about/,topic focus group,Closed,true,2000-12-05,2007-09-23,
+,,,ntp WG,Network Time Protocols working group,https://datatracker.ietf.org/wg/ntp/about/,topic focus group,Active,true,2005-02-17,,
+,,,IETF OPS Area,IETF Operations and Management Area,https://datatracker.ietf.org/wg/ops/about/,topic focus group,Active,true,1983-09-06,,
+,,,netmod WG,Network Modeling working group,https://datatracker.ietf.org/wg/netmod/about/,topic focus group,Active,true,2008-04-29,,
+,,,IETF RTG Area,IETF Routing Area,https://datatracker.ietf.org/group/rtg/about/,topic focus group,Active,true,1983-09-06,,
+,,,sidr WG,Secure Inter-Domain Routing working group,https://datatracker.ietf.org/wg/sidr/about/,topic focus group,Closed,true,2006-04-12,2018-09-06,
+,,,IETF TSV Area,IETF Transport Area,https://datatracker.ietf.org/group/tsv/about/,topic focus group,Closed,true,1983-09-06,2024-01-18,End date unclear
+,,,IETF WIT Area,IETF Web and Internet Transport Area,https://datatracker.ietf.org/group/wit/about/,topic focus group,Active,true,,,Start date unclear
+,,,httpbis WG,HTTP working group,https://datatracker.ietf.org/wg/httpbis/about/,topic focus group,Active,true,2007-10-18,,
+,,,masque WG,Multiplexed Application Substrate over QUIC Encryption working group,https://datatracker.ietf.org/wg/masque/about/,topic focus group,Active,true,2020-06-14,,
+,,,quic WG,QUIC working group,https://datatracker.ietf.org/wg/quic/about/,topic focus group,Active,true,2016-10-04,,
+,,,tcpm WG,TCP Maintenance and Minor Extensions working group,https://datatracker.ietf.org/wg/tcpm/about/,topic focus group,Active,true,2004-02-05,,
+,,,IRTF,Internet Research Task Force,https://www.irtf.org/,open standards organization,,true,,,
+,,,IRSG,Internet Research Steering Group,https://datatracker.ietf.org/group/irsg/about/,topic focus group,Active,true,2012-08-02,,
+,,,cfrg RG,Crypto Forum research group,https://datatracker.ietf.org/rg/cfrg/about/,topic focus group,Active,true,2002-07-17,,
+,,,IANA,Internet Assigned Numbers Authority,https://www.iana.org/,special purpose organization,Active,,1988-12,,"IANA functions established in RFC1083, currently operated through affiliation with ICANN"
+,,,ICANN,Internet Corporation for Assigned Names and Numbers,https://www.icann.org/,special purpose organization,Active,,1998-09-30,,
+,,,PTI (ICANN),Public Technical Identifiers,https://pti.icann.org/,special purpose organization,Active,,2016-10-01,,
+,,,OIDF,OpenID Foundation,https://openid.net/,open standards organization,Active,true,2007,,
+,,,AB/Connect WG,OpenID AB/Connect working group,https://openid.net/wg/connect/,topic focus group,Active,,2010-03,,
+,,,AuthZEN WG,AuthZEN working group,https://openid.net/wg/authzen/,topic focus group,Active,,2023-10,,
+,,,DCP WG,Digital Credentials Protocols working group,https://openid.net/wg/digital-credentials-protocols/,topic focus group,Active,,2023-08,,
+,,,EAP WG,Enhanced Authentication Profile working group,https://openid.net/wg/eap/,topic focus group,Closed,,2016-07,2025-06,
+,,,eKYC-IDA WG,eKYC and Identity Assurance working group,https://openid.net/wg/ekyc-ida/,topic focus group,Active,,2019-12,,
+,,,FAPI WG,FAPI working group,https://openid.net/wg/fapi/,topic focus group,Active,,2016-05,,
+,,,FastFed WG,FastFed working group,https://openid.net/wg/fastfed/,topic focus group,Abandoned,,2016-07,2022-03,"Last active meeting notes found for 2022-03-16, meeting on 2022-08-31 ended due to lack of attendance"
+,,,HEART WG,HEART working group,https://openid.net/wg/heart/,topic focus group,Abandoned,,2014-12,2022-03,"Last active messages in mail archive from 2022-03-31, last meeting 2020-04"
+,,,iGov WG,iGov working group,https://openid.net/wg/igov/,topic focus group,Active,,2015-08,,
+,,,IPSIE WG,Interoperability Profiling for Secure Identity in the Enterprise working group,https://openid.net/wg/ipsie/,topic focus group,Active,,2024-10,,
+,,,MODRNA WG,"Mobile Operator Discovery, Registration & Authentication working group",https://openid.net/wg/modrna/,topic focus group,Active,,2014-07,,
+,,,R&E WG,Research and Education working group,https://openid.net/wg/rande/,topic focus group,Abandoned,,2018-11,2022-03,Last active meeting notes found for 2022-03-23
+,,,Shared Signals WG,Shared Signals working group,https://openid.net/wg/sharedsignals/,topic focus group,Active,,2015-04,,
+,,,WHATWG,Web Hypertext Application Technology Working Group,https://whatwg.org/,open standards organization,Active,,2004,,
+,,,W3C,World Wide Web Consortium,https://www.w3.org/,open standards organization,Active,true,1994,,
+,,,did WG,Decentralized Identifier working group,https://www.w3.org/groups/wg/did/,open standards organization,Active,,2019-09-05,2026-04-28,End date based on current charter
+,,,fedid WG,Federated Identity working group,https://www.w3.org/groups/wg/fedid/,open standards organization,Active,,2024-03-28,2027-02-25,End date based on current charter
+,,,vc WG,Verifiable Credentials working group,https://www.w3.org/groups/wg/vc/,open standards organization,Active,,2017-04-14,2026-10-11,End date based on current charter
+,,,webauthn WG,Web Authentication working group,https://www.w3.org/groups/wg/webauthn/,open standards organization,Active,,2016-02-08,2026-04-30,End date based on current charter
+,,,xml WG,XML Core working group,https://www.w3.org/XML/Core/,open standards organization,Closed,,,2016,
+,,,FIDO Alliance,FIDO Alliance,https://fidoalliance.org/,industry association,Active,true,2013-02,,
+,,,FIDO2 TWG,FIDO2 technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,,
+,,,DO TWG,Device Onboarding technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,,
+,,,Metadata TWG,Metadata Service technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,,
+,,,UAF TWG,Universal Authentication Framework technical working group,https://fidoalliance.org/members/working-groups/,topic focus group,Active,,,,
+,,,Kantara,Kantara Initiative,https://kantarainitiative.org/,industry association,Active,true,2009,,
+,,,UMA WG,User Managed Access working group,https://kantarainitiative.org/work-groups/uma/,topic focus group,Active,,2009-07-15,,Last meeting with quorum per notes on 2023-08-24
+,,,IA WG,Identity Assurance working group,https://kantarainitiative.org/work-groups/iawg/,topic focus group,Active,,2009,,
+,,,RIUP WG,Resilient Identifiers for Underserved Populations working group,https://kantarainitiative.org/work-groups/riup/,topic focus group,Active,,2022-10-04,,
+,,,PEMC WG,Privacy Enhancing Mobile Credentials working group,https://kantarainitiative.org/work-groups/pemc/,topic focus group,Active,,2021,,
+,,,ANCR WG,Anchored Notice and Consent Receipts working group,https://kantarainitiative.org/work-groups/ancr/,topic focus group,Active,,2021,,
+,,,Ecma,Ecma International,https://ecma-international.org/,open standards organization,Active,true,1994,,Reorganized from European Computer Manufacturers Association
+,,,ECMA (Ecma),European Computer Manufacturers Association,,industry association,Reorganized,,1961-05-17,1994,Reorganized into Ecma International
+,,,ECMA TC1,Codes (Coded character sets),,topic focus group,Closed,,,,
+,,,ECMA TC39,Programming Languages (ECMAScript),https://ecma-international.org/technical-committees/tc39/,topic focus group,Active,,1996,,
+,,,OASIS,OASIS Open,https://www.oasis-open.org/,open standards organization,Active,true,1993,,"Founded as SGML Open in 1993, assumed current name in 1998"
+,,,Security TC,OASIS Security Services technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security,topic focus group,Closed,,,,
+,,,WSFed TC,OASIS Web Services Federation technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wsfed,topic focus group,Closed,,,,
+,,,WS-SX TC,OASIS Web Services Secure Exchange technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ws-sx,topic focus group,Closed,,,,
+,,,WSS TC,OASIS Web Services Security technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss,topic focus group,Closed,,,,
+,,,WSS-M TC,OASIS Web Services Security Maintenance technical committee,https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss-m,topic focus group,Closed,,,,
+,,,XACML TC,OASIS eXtensible Access Control Markup Language technical committee,https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=67afe552-0921-49b7-9a85-018dc7d3ef1d,topic focus group,Active,,,,
+,,,NIST,National Institute of Standards and Technology (US),https://www.nist.gov/,regional/national standards organization,Active,,1988-08-23,,Reorganized from National Bureau of Standards (US)
+,,,NBS (NIST),National Bureau of Standards (US),,regional/national standards organization,Reorganized,,1901-03-03,1988-08-23,Reorganized into National Institute of Standards and Technology (US)
+,,,ISO,International Organization for Standardization,https://www.iso.org/,international standards organization,Active,true,1947-02-23,,
+,,,ISO TC 46,ISO technical committee - Information and Documentation,https://www.iso.org/committee/48750.html,international standards organization,Active,,1947,,
+,,,ISO TC 97,ISO technical committee - Computers Information Processing,,international standards organization,Reorganized,,1960,1987,Reorganized into ISO/IEC JTC 1
+,,,TC97 SC 2,TC97 subcommittee - Character Sets and Information Coding (SC2),,topic focus group,Reorganized,,1961,1987,Reorganized into JTC1 SC 2
+,,,TC97 SC 18,TC97 subcommittee - Text Preparation and Interchange (SC18),,topic focus group,Reorganized,,1981,1987,Reorganized into JTC1 SC 18
+,,,ISO TC 154,"ISO technical committee - Processes, Data Elements and Documents in Commerce, Industry and Administration",https://www.iso.org/committee/53186.html,international standards organization,Active,,1972,,
+,,,IEC,International Electrotechnical Commission,https://iec.ch/,international standards organization,Active,true,1906-06-26,,
+,,,IEC TC 83,IEC technical committee - Information Technology Equipment,,international standards organization,Reorganized,,,1987,Reorganized into ISO/IEC JTC 1
+,,,ISO/IEC JTC 1,ISO/IEC Joint Technical Committee for Information Technology (JTC 1),https://jtc1info.org/,international standards organization,Active,true,1987,,Reorganized from ISO TC97 and IEC TC83
+,,,JTC1 SC 2,JTC1 subcommittee - Coded Character Sets (SC 2),https://www.iso.org/committee/45050.html,topic focus group,Active,,1987,,Reorganized from ISO TC97 SC2
+,,,JTC1 SC 6,JTC1 subcommittee - Telecommunications and Information Exchange between Systems (SC 6),https://www.iso.org/committee/45072.html,topic focus group,Active,,1987,,Reorganized from ISO TC97 SC6
+,,,JTC1 SC 14,JTC1 subcommittee - Data Elements (SC 14),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,,1987,1997,Reorganized into JTC1 SC32
+,,,JTC1 SC 17,JTC1 subcommittee - Smart Card (SC 17),https://jtc1info.org/technology/subcommittees/smart-cards/,topic focus group,Active,,1987,,Reorganized from ISO TC97 SC17 || Original SC formed in 1969
+,,,JTC1 SC 18,JTC1 subcommittee - Text and Office Systems (SC 18),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,,1987,1997,Reorganized into JTC1/SC 34 || Reorganized from ISO TC97 SC18
+,,,JTC1 SC 21,JTC1 subcommittee - Upper Layers of OSI (SC 21),https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,,1987,1997,Portions reorganized into ISO/IEC JTC1 SC32 and SC33
+,,,JTC1 SC 22,"JTC1 subcommittee - Programming Languages, Their Environments and System Software Interfaces (SC 22)",https://www.iso.org/committee/45202.html,topic focus group,Active,,1987,,
+,,,JTC1 SC 27,"JTC1 subcommittee - Information Security, Cybersecurity and Privacy Protection (SC 27)",https://jtc1info.org/technology/subcommittees/information-security-cybersecurity-privacy-protection/,topic focus group,Active,,1990,,Partially reorganized from ISO/IEC JTC1 SC20
+,,,JTC1 SC 30,JTC1 subcommittee - Open Electronic Data Interchange,https://jtc1info.org/sd-2-history/jtc1-subcommittees/,topic focus group,Reorganized,,1994,1997,Portions reorganized into ISO/IEC JTC1 SC32
+,,,JTC1 SC 32,JTC1 subcommittee - Data Management and Interchange (SC 32),https://jtc1info.org/technology/subcommittees/data-mgmt-and-interchange/,topic focus group,Active,,1997,,"Reorganized from portions of ISO/IEC JTC SC14, SC21, SC30"
+,,,JTC1 SC 34,JTC1 subcommittee - Document Description and Processing Languages (SC 34),https://jtc1info.org/technology/subcommittees/document-description-and-processing-languages/,topic focus group,Active,,1998,,Reorganized from portions of JTC1 SC18
+,,,JTC1 SC 37,JTC1 subcommittee - Biometrics (SC 37),https://jtc1info.org/technology/subcommittees/biometrics/,topic focus group,Active,,2002-08,,
+,,,ITU,International Telecommunication Union,https://www.itu.int/,international standards organization,Active,true,1865-05-17,,
+,,,CCITT (ITU-T),International Telegraph and Telephone Consultative Committee,,international standards organization,Reorganized,true,1956,1992,Reorganized from CCIF and CCIT || Reorganized into ITU-T
+,,,CCITT JWP NRD (1972),CCITT Joint Working Group NRD (Study Period 1968-1972) - New Data Networks,,topic focus group,Reorganized,,1969,1972,Reorganized into CCITT SG 7 (1976)
+,,,CCITT SG 7 (1976),CCITT Study Group VII (Study Period 1973-1976) - New Networks for Data Transmission,,topic focus group,Continued,,1973,1976,Reorganized from CCITT JWP NRD (1972)
+,,,CCITT SG 7 (1980),CCITT Study Group VII (Study Period 1977-1980) - New Networks for Data Transmission,,topic focus group,Continued,,1977,1980,
+,,,CCITT SG 7 (1984),CCITT Study Group VII (Study Period 1981-1984) - Data Communication Networks,,topic focus group,Continued,,1981,1984,
+,,,CCITT SG 7 (1988),CCITT Study Group VII (Study Period 1985-1988) - Data Communication Networks,,topic focus group,Continued,,1985,1988,
+,,,CCITT SG 7 (1992),CCITT Study Group VII (Study Period 1989-1992) - Data Communication Networks,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T SG 7 (1996)
+,,,CCITT SG 8 (1960),"CCITT Study Group 8 (Study Period 1957-1960) - Telegraph Apparatus and Local Connecting Lines, Facsimile and Phototelegraphy",,topic focus group,Reorganized,,1957,1960,Reorganized into CCITT SG 8 (1964) and SG 14 (1964)
+,,,CCITT SG 8 (1964),CCITT Study Group VIII (Study Period 1961-1964) - Alphabetic Telegraph Apparatus and Local Connecting Lines,,topic focus group,Continued,,1961,1964,Reorganized from portions of CCITT SG 8 (1960)
+,,,CCITT SG 8 (1968),CCITT Study Group VIII (Study Period 1965-1968) - Telegraph Equipment and Local Connecting Lines,,topic focus group,Continued,,1965,1968,
+,,,CCITT SG 8 (1972),CCITT Study Group VIII (Study Period 1969-1972) - Telegraph Equipment and Local Connecting Lines,,topic focus group,Continued,,1969,1972,
+,,,CCITT SG 8 (1976),"CCITT Study Group VIII (Study Period 1973-1976) - Telegraph and Data Terminal Equipment, Local Connecting Lines",,topic focus group,Continued,,1973,1976,
+,,,CCITT SG 8 (1980),"CCITT Study Group VIII (Study Period 1977-1980) - Telegraph and Data Terminal Equipment, Local Connecting Lines",,topic focus group,Reorganized,,1977,1980,"Reorganized into updated CCITT SG VIII (1984), telex terminal questions to SG IX (1984)"
+,,,CCITT SG 8 (1984),CCITT Study Group VIII (Study Period 1981-1984) - Terminal Equipment for Telematic Services,,topic focus group,Continued,,1981,1984,Reorganized from merging CCITT SG VIII (1980) and SG XIV (1980)
+,,,CCITT SG 8 (1988),CCITT Study Group VIII (Study Period 1985-1988) - Terminal Equipment for Telematic Services,,topic focus group,Continued,,1985,1988,
+,,,CCITT SG 8 (1992),CCITT Study Group VIII (Study Period 1989-1992) - Terminals for Telematic Services,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T SG 8 (1996)
+,,,CCITT SG 9 (1960),"CCITT Study Group 9 (Study Period 1957-1960) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,,1957,1960,
+,,,CCITT SG 9 (1964),"CCITT Study Group IX (Study Period 1961-1964) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,,1961,1964,
+,,,CCITT SG 9 (1968),"CCITT Study Group IX (Study Period 1965-1968) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,,1965,1968,
+,,,CCITT SG 9 (1972),"CCITT Study Group IX (Study Period 1969-1972) - Quality of Telegraph Transmission, Specification of Channel Equipments and Directives for Maintenance of Telegraph Channels",,topic focus group,Continued,,1969,1972,
+,,,CCITT SG 9 (1976),"CCITT Study Group IX (Study Period 1973-1976) - Telegraph Transmission Quality, Specification of Equipment and Rules for the Maintenance of Telegraph Channels",,topic focus group,Continued,,1973,1976,
+,,,CCITT SG 9 (1980),"CCITT Study Group IX (Study Period 1977-1980) - Telegraph Transmission Quality, Specification of Equipment and Rules for the Maintenance of Telegraph Channels",,topic focus group,Reorganized,,1977,1980,Reorganized into updated CCITT SG IX (1984)
+,,,CCITT SG 9 (1984),CCITT Study Group IX (Study Period 1981-1984) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Continued,,1981,1984,"Reorganized from merging CCITT SG IX (1980) and SG X (1980), incorporating telex terminal questions from SG VIII (1980)"
+,,,CCITT SG 9 (1988),CCITT Study Group IX (Study Period 1985-1988) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Continued,,1985,1988,
+,,,CCITT SG 9 (1992),CCITT Study Group IX (Study Period 1989-1992) - Telegraph Networks and Telegraph Terminal Equipment,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T SG 14 (1996) for telex questions and SG 1 (1996) for other questions
+,,,CCITT SG 10 (1960),CCITT Study Group 10 (Study Period 1957-1960) - Telegraph Switching,,topic focus group,Continued,,1957,1960,
+,,,CCITT SG 10 (1964),CCITT Study Group X (Study Period 1961-1964) - Telegraph Switching,,topic focus group,Continued,,1961,1964,
+,,,CCITT SG 10 (1968),CCITT Study Group X (Study Period 1965-1968) - Telegraph Switching,,topic focus group,Continued,,1965,1968,
+,,,CCITT SG 10 (1972),CCITT Study Group X (Study Period 1969-1972) - Telegraph Switching,,topic focus group,Continued,,1969,1972,
+,,,CCITT SG 10 (1976),CCITT Study Group X (Study Period 1973-1976) - Telegraph Switching,,topic focus group,Continued,,1973,1976,
+,,,CCITT SG 10 (1980),CCITT Study Group X (Study Period 1977-1980) - Telegraph Switching,,topic focus group,Reorganized,,1977,1980,Reorganized into updated CCITT SG IX (1984)
+,,,CCITT SG 10 (1988),CCITT Study Group X (Study Period 1985-1988) - Languages and Methods for Telecommunications Applications,,topic focus group,Continued,,1985,1988,"New study group, unrelated to CCITT SG X (1980) || Incorporated questions moved from CCITT SG XI (1984) and SG VII (1984)"
+,,,CCITT SG 10 (1992),CCITT Study Group X (Study Period 1989-1992) - Languages for Telecommunications Applications,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T SG 10 (1996)
+,,,CCITT SG 11 (1960),CCITT Study Group 11 (Study Period 1957-1960) - Telephone Signalling and Switching,,topic focus group,Continued,,1957,1960,
+,,,CCITT SG 11 (1964),CCITT Study Group XI (Study Period 1961-1964) - Telephone Signalling and Switching,,topic focus group,Continued,,1961,1964,
+,,,CCITT SG 11 (1968),CCITT Study Group XI (Study Period 1965-1968) - Telephone Signalling and Switching,,topic focus group,Continued,,1965,1968,
+,,,CCITT SG 11 (1972),CCITT Study Group XI (Study Period 1969-1972) - Telephone Signalling and Switching,,topic focus group,Continued,,1969,1972,
+,,,CCITT SG 11 (1976),CCITT Study Group XI (Study Period 1973-1976) - Telephone Signalling and Switching,,topic focus group,Continued,,1973,1976,
+,,,CCITT SG 11 (1980),CCITT Study Group XI (Study Period 1977-1980) - Telephone Signalling and Switching,,topic focus group,Continued,,1977,1980,
+,,,CCITT SG 11 (1984),CCITT Study Group XI (Study Period 1981-1984) - Telephone Signalling and Switching,,topic focus group,Reorganized,,1981,1984,Reorganized into updated CCITT SG XI (1988) with some questions moved to CCITT SG X (1988)
+,,,CCITT SG 11 (1988),CCITT Study Group XI (Study Period 1985-1988) - ISDN and Telephone Network and Signalling,,topic focus group,Continued,,1985,1988,
+,,,CCITT SG 11 (1992),CCITT Study Group XI (Study Period 1989-1992) - Switching and Signalling,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T 11 (1996)
+,,,CCITT SG 14 (1964),CCITT Study Group XIV (Study Period 1961-1964) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,,1961,1964,Reorganized from portions of CCITT SG 8 (1960)
+,,,CCITT SG 14 (1968),CCITT Study Group XIV (Study Period 1965-1968) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,,1965,1968,
+,,,CCITT SG 14 (1972),CCITT Study Group XIV (Study Period 1969-1972) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,,1969,1972,
+,,,CCITT SG 14 (1976),CCITT Study Group XIV (Study Period 1973-1976) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Continued,,1973,1976,
+,,,CCITT SG 14 (1980),CCITT Study Group XIV (Study Period 1977-1980) - Facsimile Telegraph Transmission and Equipment,,topic focus group,Reorganized,,1977,1980,Reorganized into updated CCITT SG 8 (1984)
+,,,CCITT SSG A (1964),CCITT Special Study Group A (Study Period 1961-1964) - Data Transmission,,topic focus group,Continued,,1961,1964,
+,,,CCITT SSG A (1968),CCITT Special Study Group A (Study Period 1965-1968) - Data Transmission,,topic focus group,Continued,,1965,1968,
+,,,CCITT SSG A (1972),CCITT Special Study Group A (Study Period 1969-1972)  - Data Transmission,,topic focus group,Continued,,1969,1972,
+,,,CCITT SSG A (1976),CCITT Special Study Group A (Study Period 1973-1976) - Data Transmission,,topic focus group,Reorganized,,1973,1976,Reorganized into CCITT SG 17
+,,,CCITT SG 17 (1980),CCITT Study Group XVII (Study Period 1977-1980) - Data Transmission,,topic focus group,Continued,,1977,1980,Reorganized from CCITT SSG A
+,,,CCITT SG 17 (1984),CCITT Study Group XVII (Study Period 1981-1984) - Data Communication Over the Telephone Network,,topic focus group,Continued,,1981,1984,
+,,,CCITT SG 17 (1988),CCITT Study Group XVII (Study Period 1985-1988) - Data Communication Over the Telephone Network,,topic focus group,Continued,,1985,1988,
+,,,CCITT SG 17 (1992),CCITT Study Group XVII (Study Period 1989-1992) - Data Communication Over the Telephone Network,,topic focus group,Reorganized,,1989,1992,Reorganized into ITU-T SG 14 (1996)
+,,,ITU-R,ITU Radiocommunication Sector,https://itu.int/itu-r/,international standards organization,Active,true,1992,,Reorganized from CCIR
+,,,ITU-T,ITU Telecommunication Standardization Sector,https://itu.int/itu-t/,international standards organization,Active,true,1992,,Reorganized from CCITT
+,,,ITU-T SG 4 (1996),ITU-T Study Group 4 (Study Period 1993-1996) - Network Maintenance,,topic focus group,Continued,,1993,1996,Reorganized from CCITT IV (1992)
+,,,ITU-T SG 4 (2000),ITU-T Study Group 4 (Study Period 1996-2000) - TMN and Network Maintenance,,topic focus group,Continued,,1996,2000,
+,,,ITU-T SG 4 (2004),"ITU-T Study Group 4 (Study Period 2001-2004) - Telecommunication Management, including TMN",,topic focus group,Continued,,2001,2004,Incorporated questions from ITU-T SG 7 (2000)
+,,,ITU-T SG 4 (2008),ITU-T Study Group 4 (Study Period 2005-2008) - Telecommunication Management,,topic focus group,Reorganized,,2005,2008,Reorganized into ITU-T SG 2 (2012) and SG 15 (2012)
+,,,ITU-T SG 7 (1996),ITU-T Study Group 7 (Study Period 1993-1996) - Data Networks and Open Systems Communications,,topic focus group,Continued,,1993,1996,Reorganized from CCITT SG 7 (1992)
+,,,ITU-T SG 7 (2000),ITU-T Study Group 7 (Study Period 1996-2000) - Data Networks and Open Systems Communications,,topic focus group,Reorganized,,1997,2000,Reorganized into ITU-T SG 7 (2004) and SG 4 (2004)
+,,,ITU-T SG 7 (2004),ITU-T Study Group 7 (Study Period 2001-2004) - Data Networks and Open Systems Communications,,topic focus group,Reorganized,,2001,2001-09-16,Reorganized into ITU-T SG 17 (2004)
+,,,ITU-T SG 8 (1996),ITU-T Study Group 8 (Study Period 1993-1996) - Terminals for Telematic Services,,topic focus group,Reorganized,,1993,1996,Reorganized from CCITT SG 8 (1992) || Some questions transferred to ITU-T SG 16 (2000)
+,,,ITU-T SG 8 (2000),ITU-T Study Group 8 (Study Period 1996-2000) - Characteristics of Telematic Systems,,topic focus group,Reorganized,,1996,2000,Reorganized into ITU-T SG 16 (2004)
+,,,ITU-T SG 10 (1996),ITU-T Study Group 10 (Study Period 1993-1996) - Languages for Telecommunication Applications,,topic focus group,Continued,,1993,1996,Reorganized from CCITT SG 10 (1992)
+,,,ITU-T SG 10 (2000),ITU-T Study Group 10 (Study Period 1996-2000) - Languages and General Software Aspects for Telecommunication Systems,,topic focus group,Continued,,1996,2000,
+,,,ITU-T SG 10 (2004),ITU-T Study Group 10 (Study Period 2000-2004) - Languages and General Software Aspects for Telecommunication Systems,,topic focus group,Reorganized,,2001,2001-09-16,Reorganized into ITU-T SG 17 (2004)
+,,,ITU-T SG 13 (2008),ITU-T Study Group 13 (Study Period 2005-2008) - Next Generation Networks,,topic focus group,Continued,,2005,2008,Reorganized from ITU-T SG 13 (2004) and SG 17 (2004)
+,,,ITU-T SG 14 (1996),"ITU-T Study Group 14 (Study Period 1993-1996) - Modems and Transmission Techniques for Data, Telegraph and Telematic Services",,topic focus group,Reorganized,,1993,1996,Reorganized from CCITT SG 17 (1992) and portions of SG 9 (1992) || Reorganized into existing ITU-T SG 15 (2000) and new SG 16 (2000)
+,,,ITU-T SG 16 (2000),ITU-T Study Group 16 (Study Period 1996-2000) - Multimedia Services and Systems,,topic focus group,Continued,,1996,2000,
+,,,ITU-T SG 16 (2004),"ITU-T Study Group 16 (Study Period 2001-2004) - Multimedia Services, Systems and Terminals",,topic focus group,Continued,,2001,2004,Incorporated questions from discontinued ITU-T SG 8 (2000)
+,,,ITU-T SG 16 (2008),"ITU-T Study Group 16 (Study Period 2005-2008) - Multimedia Terminals, Systems and Applications",,topic focus group,Continued,,2005,2008,Incorporated questions from ITU-T SG 15 (2004)
+,,,ITU-T SG 16 (2012),"ITU-T Study Group 16 (Study Period 2009-2012) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,,2009,2012,
+,,,ITU-T SG 16 (2016),"ITU-T Study Group 16 (Study Period 2013-2016) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,,2013,2016,
+,,,ITU-T SG 16 (2021),"ITU-T Study Group 16 (Study Period 2017-2021) - Multimedia Coding, Systems and Applications",,topic focus group,Continued,,2017,2021,
+,,,ITU-T SG 16 (2024),"ITU-T Study Group 16 (Study Period 2022-2024) - Multimedia Coding, Systems and Applications",,topic focus group,Reorganized,,2022,2024,Reorganized to ITU-T SG 21 (2028)
+,,,ITU-T SG 17 (2004),ITU-T Study Group 17 (Study Period 2001-2004) - Data Networks and Telecommunication Software,,topic focus group,Reorganized,,2001-09-17,2004,Reorganized from ITU-T SG 7 (2004) and SG 10 (2004) || Reorganized into ITU-T SG 13 (2008) and SG 17 (2008)
+,,,ITU-T SG 17 (2008),"ITU-T Study Group 17 (Study Period 2005-2008) - Security, Languages and Telecommunication Software",,topic focus group,Continued,,2005,2008,Reorganized from ITU-T SG 17  (2004)
+,,,ITU-T SG 17 (2012),ITU-T Study Group 17 (Study Period 2009-2012) - Security,,topic focus group,Continued,,2009,2012,
+,,,ITU-T SG 17 (2016),ITU-T Study Group 17 (Study Period 2013-2016) - Security,,topic focus group,Continued,,2013,2016,
+,,,ITU-T SG 17 (2021),ITU-T Study Group 17 (Study Period 2017-2021) - Security,,topic focus group,Continued,,2017,2021,
+,,,ITU-T SG 17 (2024),ITU-T Study Group 17 (Study Period 2022-2024) - Security,,topic focus group,Continued,,2022,2024,
+,,,ITU-T SG 17 (2028),ITU-T Study Group 17 (Study Period 2025-2028) - Security,https://www.itu.int/en/ITU-T/studygroups/2025-2028/17/Pages/default.aspx,topic focus group,Active,,2025,2028,
+,,,ANSI,American National Standards Institute,https://ansi.org/,regional/national standards organization,Active,,1969,,Reorganized from USASI
+,,,USASI (ANSI),United States of America Standards Institute,,regional/national standards organization,Reorganized,,1966,1969,Reorganized from ASA || Reorganized into ANSI
+,,,ASA (ANSI),American Standards Association,,regional/national standards organization,Reorganized,,1928,1966,Reorganized from AESC || Reorganized into USASI
+,,,AESC (ANSI),American Engineering Standards Committee,,regional/national standards organization,Reorganized,,1918,1928,Reorganized into ASA
+,,,USNC (ANSI),United States National Committee of the IEC,https://www.ansi.org/usnc-iec/,regional/national standards organization,Active,,1907,,"Affiliated with ASA and successors from 1931 for administrative support, becomes formal body of ANSI in 1976 "
+,,,INCITS,InterNational Committee for Information Technology Standards,https://www.incits.org/,regional/national standards organization,Active,,2001,,Reorganized from NCITS
+,,,NCITS (INCITS),"Accredited Standards Committee NCITS, National Committee for Information Technology",,regional/national standards organization,Reorganized,,1997,2001,Reorganized from X3 || Reorganized into INCITS
+,,,X3 (INCITS),"Accredited Standards Committee X3, Information Technology",,regional/national standards organization,Reorganized,,1961,1997,Reorganized into NCITS
+,,,INCITS/L2,L2 - Character Sets and Internationalization technical committee,https://www.incits.org/committees/l2,topic focus group,Active,,,,Reorganized from X3L2
+,,,X3L2,X3L2 Subcommittee on Character Sets and Codes,,topic focus group,Reorganized,,,,Reorganized from X3.2 || Reorganized into INCITS/L2
+,,,X3.2,X3.2 Subcommittee on Codes and Input-Output,,topic focus group,Reorganized,,,,Reorganized into X3L2
+,,,ETSI,European Telecommunications Standards Institute,https://www.etsi.org/,regional/national standards organization,Active,,1988,,
+,,,ENISA,European Union Agency for Cybersecurity,https://www.enisa.europa.eu/,regional/national standards organization,Active,,2004-03-13,,
+,,,ITI,Information Technology Industry Council,https://www.itic.org/,industry association,Active,,1994,,Reorganized from CBEMA
+,,,CBEMA (ITI),Computer and Business Equipment Manufacturers Association,,industry association,Reorganized,,1973,1994,Reorganized from BEMA || Reorganized into ITI
+,,,BEMA (ITI),Business Equipment Manufacturers Association,,industry association,Reorganized,,1961,1973,Reorganized from OEMI || Reorganized into CBEMA
+,,,OEMI (ITI),Office Equipment Manufacturers Institute,,industry association,Reorganized,,1929,1961,Reorganized from NAOAM || Reorganized into BEMA
+,,,NAOAM (ITI),National Association of Office Appliance Manufacturers,,industry association,Reorganized,,1916,1929,Reorganized into OEMI
+,,,ICAO,International Civil Aviation Organization,https://www.icao.int/,international standards organization,Active,,1944,,
+,,,SVTA,Streaming Video Technology Alliance,https://www.svta.org/,industry association,Active,,,,
+,,,OATC,Open Authentication Technology Committee,https://oatc.svta.org/,topic focus group,Closed,,,,
+,,,Unicode,Unicode Consortium,https://unicode.org/,industry association,Active,,1991-01-03,,
+,,,Netscape,Netscape Communications Corporation,,independent organization,Reorganized,,1994-11-14,1999-03-17,Reorganized from Mosaic || Acquired by America Online
+,,,Mosaic (Netscape),Mosaic Communications Corporation,,independent organization,Reorganized,,1994-04-04,1994-11-14,Reorganized into Netscape
+,,,Open Group,The Open Group,https://www.opengroup.org,industry association,Active,,1996,,Reorganized from X/Open and Open Software Foundation
+,,,X/Open (Open Group),X/Open Company,,industry association,Reorganized,,1987,1996,Reorganized into The Open Group with Open Software Foundation
+,,,BISON (Open Group),Open Group for Unix Systems,,industry association,Reorganized,,1984,1987,Reorganized into X/Open Company
+,,,OSF (Open Group),Open Software Foundation,,industry association,Reorganized,,1988,1996,Reorganized into The Open Group with X/Open Company

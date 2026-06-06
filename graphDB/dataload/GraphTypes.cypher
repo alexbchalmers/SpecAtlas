@@ -23,6 +23,7 @@
 *   url                   STRING
 *   organizationType      STRING                                NOT NULL
 *   status                LIST<STRING NOT NULL>                 NOT NULL
+*   displayGroup          BOOLEAN
 *   startDate             DATE
 *   endDate               DATE
 *   notes                 LIST<STRING NOT NULL>
@@ -89,6 +90,10 @@ REQUIRE co.status IS :: LIST<STRING NOT NULL>;
 CREATE CONSTRAINT ControllingOrg__status__reqd IF NOT EXISTS
 FOR (co:ControllingOrg)
 REQUIRE co.status IS NOT NULL;
+
+CREATE CONSTRAINT ControllingOrg__displayGroup__type IF NOT EXISTS
+FOR (co:ControllingOrg)
+REQUIRE co.displayGroup IS :: BOOLEAN;
 
 CREATE CONSTRAINT ControllingOrg__startDate__type IF NOT EXISTS
 FOR (co:ControllingOrg)

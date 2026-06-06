@@ -43,6 +43,7 @@ MERGE (
                                     [x IN split(row.status, ';') | lower(trim(x))],
                                     ['unknown']
                                   )
+      , co.displayGroup         = toBoolean(nullIf(trim(row.displayGroup), ''))
       , co.startDate            = date(nullIf(trim(row.startDate), ''))   // YYYY[-MM[-DD]]
       , co.endDate              = date(nullIf(trim(row.endDate), ''))     // YYYY[-MM[-DD]]
       , co.notes                = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
