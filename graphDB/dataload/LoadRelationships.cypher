@@ -306,6 +306,16 @@ CALL (*) {
           , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
           , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
   }
+  WHEN row.relationshipType = 'REVISES' THEN {
+    MERGE (source)-[r:REVISES {
+      relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
+    }]->(target)
+      ON CREATE
+        SET
+          r.createdTimestamp  = coalesce(datetime(trim(row.createdTimestamp)), datetime())
+          , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
+          , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
+  }
 }
 RETURN
   'Loaded Relationship Data' AS Action;
