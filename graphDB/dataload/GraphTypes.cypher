@@ -1567,3 +1567,45 @@ REQUIRE r.updatedTimestamp IS NOT NULL;
 CREATE CONSTRAINT R_adoptedBy__notes__type IF NOT EXISTS
 FOR ()-[r:ADOPTED_BY]->()
 REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
+
+
+/* RELATIONSHIP: REVISES *******************************************************
+*
+*   Property Name         Type                                  Constraints
+*   --------------------  ------------------------------------  ----------------
+*   relationshipId        STRING                                REL KEY
+*   createdTimestamp      ZONED DATETIME                        NOT NULL
+*   updatedTimestamp      ZONED DATETIME                        NOT NULL
+*
+*   notes                 LIST<STRING NOT NULL>
+*
+*******************************************************************************/
+
+CREATE CONSTRAINT R_revises__relationshipId__type IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.relationshipId IS :: STRING;
+
+CREATE CONSTRAINT R_revises__relationshipId__key IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.relationshipId IS REL KEY;
+
+CREATE CONSTRAINT R_revises__createdTimestamp__type IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.createdTimestamp IS :: ZONED DATETIME;
+
+CREATE CONSTRAINT R_revises__createdTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.createdTimestamp IS NOT NULL;
+
+CREATE CONSTRAINT R_revises__updatedTimestamp__type IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.updatedTimestamp IS :: ZONED DATETIME;
+
+CREATE CONSTRAINT R_revises__updatedTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.updatedTimestamp IS NOT NULL;
+
+
+CREATE CONSTRAINT R_revises__notes__type IF NOT EXISTS
+FOR ()-[r:REVISES]->()
+REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
