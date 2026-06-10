@@ -134,6 +134,16 @@ CALL (*) {
           , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
           , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
   }
+  WHEN row.relationshipType = 'REPLACES' THEN {
+    MERGE (source)-[r:REPLACES {
+      relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
+    }]->(target)
+      ON CREATE
+        SET
+          r.createdTimestamp  = coalesce(datetime(trim(row.createdTimestamp)), datetime())
+          , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
+          , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
+  }
   WHEN row.relationshipType = 'UPDATES' THEN {
     MERGE (source)-[r:UPDATES {
       relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
@@ -278,6 +288,16 @@ CALL (*) {
   }
   WHEN row.relationshipType = 'VARIANT_OF' THEN {
     MERGE (source)-[r:VARIANT_OF {
+      relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
+    }]->(target)
+      ON CREATE
+        SET
+          r.createdTimestamp  = coalesce(datetime(trim(row.createdTimestamp)), datetime())
+          , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
+          , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
+  }
+  WHEN row.relationshipType = 'ADOPTED_BY' THEN {
+    MERGE (source)-[r:ADOPTED_BY {
       relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
     }]->(target)
       ON CREATE

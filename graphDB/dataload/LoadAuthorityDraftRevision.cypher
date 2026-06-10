@@ -35,6 +35,7 @@ MERGE (
                                     ['unknown']
                                   )
       , adr.reference           = nullIf(trim(row.reference), '')
+      , adr.revisionSequence    = toInteger(nullIf(trim(row.revisionSequence), ''))
       , adr.title               = trim(row.title)
       , adr.status              = coalesce(
                                     [x IN split(row.status, ';') | lower(trim(x))],

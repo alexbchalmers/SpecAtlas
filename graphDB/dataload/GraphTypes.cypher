@@ -445,6 +445,7 @@ REQUIRE ad.notes IS :: LIST<STRING NOT NULL>;
 *   atlasStatus               LIST<STRING NOT NULL>             NOT NULL
 *
 *   reference                 STRING                            UNIQUE
+*   revisionSequence          INTEGER                           NOT NULL
 *   title                     STRING                            NOT NULL
 *   status                    LIST<STRING NOT NULL>             NOT NULL
 *   type                      STRING
@@ -505,6 +506,14 @@ REQUIRE adr.reference IS :: STRING;
 CREATE CONSTRAINT AuthorityDraftRevision__reference__unique IF NOT EXISTS
 FOR (adr:AuthorityDraftRevision)
 REQUIRE adr.reference IS UNIQUE;
+
+CREATE CONSTRAINT AuthorityDraftRevision__revisionSequence__type IF NOT EXISTS
+FOR (adr:AuthorityDraftRevision)
+REQUIRE adr.revisionSequence IS :: INTEGER;
+
+CREATE CONSTRAINT AuthorityDraftRevision__revisionSequence__reqd IF NOT EXISTS
+FOR (adr:AuthorityDraftRevision)
+REQUIRE adr.revisionSequence IS NOT NULL;
 
 CREATE CONSTRAINT AuthorityDraftRevision__title__type IF NOT EXISTS
 FOR (adr:AuthorityDraftRevision)
@@ -1515,4 +1524,46 @@ REQUIRE r.updatedTimestamp IS NOT NULL;
 
 CREATE CONSTRAINT R_variantOf__notes__type IF NOT EXISTS
 FOR ()-[r:VARIANT_OF]->()
+REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
+
+
+/* RELATIONSHIP: ADOPTED_BY ****************************************************
+*
+*   Property Name         Type                                  Constraints
+*   --------------------  ------------------------------------  ----------------
+*   relationshipId        STRING                                REL KEY
+*   createdTimestamp      ZONED DATETIME                        NOT NULL
+*   updatedTimestamp      ZONED DATETIME                        NOT NULL
+*
+*   notes                 LIST<STRING NOT NULL>
+*
+*******************************************************************************/
+
+CREATE CONSTRAINT R_adoptedBy__relationshipId__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.relationshipId IS :: STRING;
+
+CREATE CONSTRAINT R_adoptedBy__relationshipId__key IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.relationshipId IS REL KEY;
+
+CREATE CONSTRAINT R_adoptedBy__createdTimestamp__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.createdTimestamp IS :: ZONED DATETIME;
+
+CREATE CONSTRAINT R_adoptedBy__createdTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.createdTimestamp IS NOT NULL;
+
+CREATE CONSTRAINT R_adoptedBy__updatedTimestamp__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.updatedTimestamp IS :: ZONED DATETIME;
+
+CREATE CONSTRAINT R_adoptedBy__updatedTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
+REQUIRE r.updatedTimestamp IS NOT NULL;
+
+
+CREATE CONSTRAINT R_adoptedBy__notes__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_BY]->()
 REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
