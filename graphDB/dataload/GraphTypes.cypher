@@ -1527,7 +1527,7 @@ FOR ()-[r:VARIANT_OF]->()
 REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
 
 
-/* RELATIONSHIP: ADOPTED_BY ****************************************************
+/* RELATIONSHIP: ADOPTED_AS ****************************************************
 *
 *   Property Name         Type                                  Constraints
 *   --------------------  ------------------------------------  ----------------
@@ -1539,33 +1539,33 @@ REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
 *
 *******************************************************************************/
 
-CREATE CONSTRAINT R_adoptedBy__relationshipId__type IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__relationshipId__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.relationshipId IS :: STRING;
 
-CREATE CONSTRAINT R_adoptedBy__relationshipId__key IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__relationshipId__key IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.relationshipId IS REL KEY;
 
-CREATE CONSTRAINT R_adoptedBy__createdTimestamp__type IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__createdTimestamp__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.createdTimestamp IS :: ZONED DATETIME;
 
-CREATE CONSTRAINT R_adoptedBy__createdTimestamp__reqd IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__createdTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.createdTimestamp IS NOT NULL;
 
-CREATE CONSTRAINT R_adoptedBy__updatedTimestamp__type IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__updatedTimestamp__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.updatedTimestamp IS :: ZONED DATETIME;
 
-CREATE CONSTRAINT R_adoptedBy__updatedTimestamp__reqd IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__updatedTimestamp__reqd IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.updatedTimestamp IS NOT NULL;
 
 
-CREATE CONSTRAINT R_adoptedBy__notes__type IF NOT EXISTS
-FOR ()-[r:ADOPTED_BY]->()
+CREATE CONSTRAINT R_adoptedAs__notes__type IF NOT EXISTS
+FOR ()-[r:ADOPTED_AS]->()
 REQUIRE r.notes IS :: LIST<STRING NOT NULL>;
 
 

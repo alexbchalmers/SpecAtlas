@@ -296,8 +296,8 @@ CALL (*) {
           , r.updatedTimestamp = coalesce(datetime(trim(row.updatedTimestamp)), datetime())
           , r.notes           = [x IN split(nullIf(trim(row.notes), ''), '||') | trim(x)]
   }
-  WHEN row.relationshipType = 'ADOPTED_BY' THEN {
-    MERGE (source)-[r:ADOPTED_BY {
+  WHEN row.relationshipType = 'ADOPTED_AS' THEN {
+    MERGE (source)-[r:ADOPTED_AS {
       relationshipId: coalesce(lower(trim(row.relationshipId)), randomUUID())
     }]->(target)
       ON CREATE
