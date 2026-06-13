@@ -1,11 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/api/staticwebapp"
-  },
-  "responseOverrides": {
-    "400": { "rewrite": "/400" },
-    "401": { "rewrite": "/401" },
-    "403": { "rewrite": "/403" },
-    "404": { "rewrite": "/404" }
   }
 }
