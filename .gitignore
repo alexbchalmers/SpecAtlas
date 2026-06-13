@@ -27,6 +27,7 @@ out/
 
 # Environment secrets
 .env.local
+.env.*
 
 
 ########################################
