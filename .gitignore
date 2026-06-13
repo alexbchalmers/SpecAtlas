@@ -21,6 +21,13 @@ Thumbs.db
 # Dependency directories
 node_modules/
 
+# Next.js build output
+.next/
+out/
+
+# Environment secrets
+.env.local
+
 
 ########################################
 # VS Code Local Customizations

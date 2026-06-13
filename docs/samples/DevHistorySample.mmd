@@ -1,0 +1,134 @@
+---
+config:
+  look: "neo"
+  theme: "base"
+
+  gitGraph:
+    mainBranchName: "Adopted"
+    parallelCommits: true
+---
+
+gitGraph BT:
+  branch openid-connect-core-1_0
+  branch openid-connect-userinfo-1_0
+  branch openid-connect-code-1_0
+  branch openid-connect-ab-1_0
+  branch openid-connect-http-redirect-1_0
+  branch openid-connect-messages-1_0
+  branch openid-connect-standard-1_0
+
+  checkout openid-connect-core-1_0
+  commit id:"openid-connect-core-1_0-01"
+  commit id:"openid-connect-core-1_0-02"
+  commit id:"openid-connect-core-1_0-03"
+  commit id:"openid-connect-core-1_0-04"
+  commit id:"openid-connect-core-1_0-05"
+  commit id:"openid-connect-core-1_0-06"
+  branch openid-connect-framework-1_0
+  checkout openid-connect-core-1_0
+  commit id:"openid-connect-core-1_0-07"
+  commit id:"openid-connect-core-1_0-08"
+  commit id:"openid-connect-core-1_0-09"
+  commit id:"openid-connect-core-1_0-10"
+  commit id:"openid-connect-core-1_0-11"
+  
+  checkout openid-connect-framework-1_0
+  commit id: "openid-connect-framework-1_0-01"
+  commit id: "openid-connect-framework-1_0-02"
+  commit id: "openid-connect-framework-1_0-03"
+  commit id: "openid-connect-framework-1_0-04"
+  commit id: "openid-connect-framework-1_0-05"
+  
+  
+  checkout openid-connect-userinfo-1_0
+  commit id:"openid-connect-userinfo-1_0-01"
+  commit id:"openid-connect-userinfo-1_0-02"
+  commit id:"openid-connect-userinfo-1_0-03"
+  commit id:"openid-connect-userinfo-1_0-04"
+  commit id:"openid-connect-userinfo-1_0-05"
+  commit id:"openid-connect-userinfo-1_0-06"
+  
+  checkout openid-connect-code-1_0
+  commit id:"openid-connect-code-1_0-01"
+  commit id:"openid-connect-code-1_0-02"
+
+  checkout openid-connect-ab-1_0
+  commit id:"openid-connect-ab-1_0-01"
+  commit id:"openid-connect-ab-1_0-02"
+
+  checkout openid-connect-http-redirect-1_0
+  commit id:" " type:HIGHLIGHT
+  merge openid-connect-code-1_0
+  merge openid-connect-ab-1_0
+  commit id:"openid-connect-http-redirect-1_0-01"
+  commit id:"openid-connect-http-redirect-1_0-02"
+  commit id:"openid-connect-http-redirect-1_0-03"
+  commit id:"openid-connect-http-redirect-1_0-04"
+  commit id:"openid-connect-http-redirect-1_0-05"
+
+  checkout openid-connect-messages-1_0
+  commit id:"  " type:HIGHLIGHT
+  merge openid-connect-core-1_0
+  merge openid-connect-framework-1_0
+  merge openid-connect-userinfo-1_0
+  commit id:"openid-connect-messages-1_0-01"
+  commit id:"openid-connect-messages-1_0-02"
+  commit id:"openid-connect-messages-1_0-03"
+  commit id:"openid-connect-messages-1_0-04"
+  commit id:"openid-connect-messages-1_0-05"
+  commit id:"openid-connect-messages-1_0-06"
+  commit id:"openid-connect-messages-1_0-07"
+  commit id:"openid-connect-messages-1_0-08"
+  commit id:"openid-connect-messages-1_0-09"
+  commit id:"openid-connect-messages-1_0-10"
+  commit id:"openid-connect-messages-1_0-11"
+  commit id:"openid-connect-messages-1_0-12"
+  commit id:"openid-connect-messages-1_0-13"
+  commit id:"openid-connect-messages-1_0-14"
+  commit id:"openid-connect-messages-1_0-15"
+  commit id:"openid-connect-messages-1_0-16"
+  commit id:"openid-connect-messages-1_0-17"
+  commit id:"openid-connect-messages-1_0-18"
+  commit id:"openid-connect-messages-1_0-19"
+  commit id:"openid-connect-messages-1_0-20"
+
+  checkout openid-connect-standard-1_0
+  commit id:"   " type:HIGHLIGHT
+  merge openid-connect-http-redirect-1_0
+  commit id:"openid-connect-standard-1_0-01"
+  commit id:"openid-connect-standard-1_0-02"
+  commit id:"openid-connect-standard-1_0-03"
+  commit id:"openid-connect-standard-1_0-04"
+  commit id:"openid-connect-standard-1_0-05"
+  commit id:"openid-connect-standard-1_0-06"
+  commit id:"openid-connect-standard-1_0-07"
+  commit id:"openid-connect-standard-1_0-08"
+  commit id:"openid-connect-standard-1_0-09"
+  commit id:"openid-connect-standard-1_0-10"
+  commit id:"openid-connect-standard-1_0-11"
+  commit id:"openid-connect-standard-1_0-12"
+  commit id:"openid-connect-standard-1_0-13"
+  commit id:"openid-connect-standard-1_0-14"
+  commit id:"openid-connect-standard-1_0-15"
+  commit id:"openid-connect-standard-1_0-16"
+  commit id:"openid-connect-standard-1_0-17"
+  commit id:"openid-connect-standard-1_0-18"
+  commit id:"openid-connect-standard-1_0-19"
+  commit id:"openid-connect-standard-1_0-20"
+  commit id:"openid-connect-standard-1_0-21"
+
+  checkout openid-connect-core-1_0
+  merge openid-connect-standard-1_0
+  merge openid-connect-messages-1_0
+  commit id:"openid-connect-core-1_0-12"
+  commit id:"openid-connect-core-1_0-13"
+  commit id:"openid-connect-core-1_0-14"
+  commit id:"openid-connect-core-1_0-15"
+  commit id:"openid-connect-core-1_0-16"
+  commit id:"openid-connect-core-1_0-17"
+  commit id:"openid-connect-core-1_0-18"
+
+  checkout Adopted
+  commit id:"    " type:HIGHLIGHT
+  merge openid-connect-core-1_0
+  commit id:"OpenID Connect Core 1.0 (02/2014)"
