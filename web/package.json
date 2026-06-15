@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "^24",
+    "npm": "^11"
+  },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "mermaid": "^11.15.0",
